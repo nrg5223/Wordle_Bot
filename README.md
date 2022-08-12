@@ -35,22 +35,22 @@ Personal project - started 6/27/2022.
 > 
 >> #### Planned
 > - Program that plays the daily Wordle using the solver.
->  - Daily texts to my phone or discord messages to show me results.
->  - Use a raspberry pi (most likely).
+>    - Daily texts to my phone or discord messages to show me results.
+>    - Use a raspberry pi (most likely).
 > - Import stats into matlab, plot them, then import the plot into the project
 >   to illustrate algorithm improvement.
 > - Antiwordle
->  - Playable PTUI
->  - Automated PTUI
+>    - Playable PTUI
+>    - Automated PTUI
 > - Dordle
->  - Playable PTUI
->  - Automated PTUI
+>    - Playable PTUI
+>    - Automated PTUI
 
 ### How to run/use the program
-> ####Prereqs
+> #### Prereqs
 > - To update the library:
->   - have internet connection
->   - install the Jsoup library
+>    - have internet connection
+>    - install the Jsoup library
 
 > ####To run it
 > 
@@ -105,46 +105,49 @@ Personal project - started 6/27/2022.
 >                        args[1] - the first guess word
 
 ### Solver Versions
-> ###V1 
+> ### V1 
 > A solver version that chooses a random word from the list of possible
 > solutions.
+> 
 >  - Status: methods tested and verified. Performs well.
 > 
 > 
 >  - With solution lib as solution lib (size 2309)
->   - Solve rate: 97.75%
->   - Avg guesses: 4.07
+>     - Solve rate: 97.75%
+>     - Avg guesses: 4.07
 >  - With Wordle lib as solution lib (size 12974)
->   - Solve rate: 84.38%
->   - Avg guesses: 4.62
+>     - Solve rate: 84.38%
+>     - Avg guesses: 4.62
 > 
-> ###V2
+> ### V2
 > A solver version that uses letter frequency to choose the best guess. It
 > assumes guesses with all unique letters are best.
+> 
 >  - Status: methods tested and verified.  Performs well.
 > 
 > 
 >  - With solution lib as solution lib (size 2309)
->   - Solve rate: 98.96%
->   - Avg guesses: 3.70
+>     - Solve rate: 98.96%
+>     - Avg guesses: 3.70
 >  - With Wordle lib as solution lib (size 12974)
->   - Solve rate: 87.87%
->   - Avg guesses: 4.35
+>     - Solve rate: 87.87%
+>     - Avg guesses: 4.35
 > 
-> ###V3
+> ### V3
 > A solver version that uses letter-index frequency to choose the best guess.
 > It assumes guesses with all unique letters are best.
+> 
 >  - Status: methods tested and verified.  Performs well.
 > 
 > 
 >  - With solution lib as solution lib (size 2309)
->   - Solve rate: 99.22%
->   - Avg guesses: 3.62
+>     - Solve rate: 99.22%
+>     - Avg guesses: 3.62
 >  - With Wordle lib as solution lib (size 12974)
->   - Solver rate: 88.72%
->   - Avg guesses: 4.34
+>     - Solver rate: 88.72%
+>     - Avg guesses: 4.34
 > 
-> ###V4
+> ### V4
 > A solver version that chooses guesses by calculating average reduction of
 > each potential guess.  To do so, it calculates the average reduction of each
 > letter-index in each guess, and sums the 5 letter-index reductions.  It
@@ -157,13 +160,13 @@ Personal project - started 6/27/2022.
 > 
 > 
 >  - With solution lib as solution lib (size 2309)
->   - Solve rate: 100.00%
->   - Avg guesses: 3.59
+>     - Solve rate: 100.00%
+>     - Avg guesses: 3.59
 >  - With Wordle lib as solution lib (size 12974)
->   - Solve rate: 99.50
->   - Avg guesses: 4.27
+>     - Solve rate: 99.50
+>     - Avg guesses: 4.27
 > 
-> ###V5
+> ### V5
 > A solver version that uses the same method as SolverV3, except it chooses
 > guesses from the whole Wordle library.  SolverV3 chooses guesses from the
 > solution library, meaning it plays hard mode.  This solver assumes guesses
@@ -173,13 +176,13 @@ Personal project - started 6/27/2022.
 > 
 > 
 >  - With solution lib as solution lib (size 2309)
->   - Solve rate: 98.57%
->   - Avg guesses: 3.83
+>     - Solve rate: 98.57%
+>     - Avg guesses: 3.83
 >  - With Wordle lib as solution lib (size 12974)
->   - Solve rate: 85.35%
->   - Avg guesses: 4.47
+>     - Solve rate: 85.35%
+>     - Avg guesses: 4.47
 > 
-> ###V6
+> ### V6
 > A solver version that chooses guesses using the "brick-flame-podgy-shunt"
 > method.  This combination of 4 words contains the 20 most common letters.
 > This solver guesses these 4 words first then uses SolverV4's method for the
@@ -188,27 +191,32 @@ Personal project - started 6/27/2022.
 >  - Status: has at least one unidentified bug.
 > 
 > 
->  - Solve rate: needs testing
->  - Avg guesses: needs testing
+>  - With solution lib as solution lib (size 2309)
+>     - Solve rate: needs tested
+>     - Avg guesses: needs testing
+>  - With Wordle lib as solution lib (size 12974)
+>     - Solve rate: needs testing
+>     - Avg guesses: needs testing
 > 
-> ###V7
+> ### V7
 > A solver version that chooses guesses by calculating average reduction of
 > each potential guess.  To do so, it creates a copy of the current game for
 > each word, guesses each word, and gets the reduction of the solution list for
 > each one.  This takes a long time, so it uses SolverV4's method for the first
 > 2 guesses.  Then it uses its method to re-rank the best X guesses from
 > SolverV4's method.
+> 
 >  - Status:  methods tested and verified.  Performs well, but is slow.
 >
 > 
 >  - With solution lib as solution lib (size 2309)
->   - Solve rate: 100.00%
->   - Avg guesses: 3.56
+>     - Solve rate: 100.00%
+>     - Avg guesses: 3.56
 >  - With Wordle lib as solution lib (size 12974)
->   - Solve rate: 99.78%
->   - Avg guesses: 4.19
+>     - Solve rate: 99.78%
+>     - Avg guesses: 4.19
 > 
-> ###V8
+> ### V8 
 > A solver version that chooses guesses by calculating reduction of each
 > potential guess.  It stores a set of words that could be potentially reduced
 > by each letter in the guess.  Then it takes the union of the sets to remove
@@ -218,13 +226,17 @@ Personal project - started 6/27/2022.
 >  - Status: needs more testing and optimization.  It is very slow. 
 > 
 > 
->  - Solve rate: needs testing
->  - Avg guesses: needs testing
+>  - With solution lib as solution lib (size 2309)
+>     - Solve rate: needs testing
+>     - Avg guesses: needs testing
+>  - With Wordle lib as solution lib (size 12974)
+>     - Solve rate: needs testing
+>     - Avg guesses: needs testing
 
 ### Design
-> ####Plans
+> #### Plans
 > - none currently
-> ####Documents
+> #### Documents
 > - See ***UML_Diagram.png*** in *data/Documents* for system design.
 
 ### Known Bugs
