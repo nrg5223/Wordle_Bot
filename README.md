@@ -31,7 +31,7 @@ Personal project - started 6/27/2022.
 >      library from online.
 > 
 > #### In Progress
-> - nothing currently
+> - none currently
 > 
 > #### Planned
 > - Program that plays the daily Wordle using the solver.
@@ -49,8 +49,8 @@ Personal project - started 6/27/2022.
 ### How to run/use the program
 > #### Prereqs
 > - To update the library:
->    - have internet connection
->    - install the Jsoup library
+>    - have internet connection.
+>    - install the Jsoup library.
 
 > #### To run it
 > 
@@ -103,6 +103,10 @@ Personal project - started 6/27/2022.
 >                    written to a text file.
 >                  - additional arguments:
 >                        args[1] - the first guess word
+
+### Design
+> #### Documents
+> - See UML Class Diagram for system design here: https://github.com/nrg5223/Wordle_Bot/blob/3452c56630faa655ba46d3a79446f0fa86d50a7a/Documents/UML%20Class%20Diagram.pdf
 
 ### Solver Versions
 > ### V1 
@@ -231,12 +235,6 @@ Personal project - started 6/27/2022.
 >  - With Wordle lib as solution lib (size 12974)
 >     - Solve rate: needs testing
 >     - Avg guesses: needs testing
-
-### Design
-> #### Plans
-> - none currently
-> #### Documents
-> - See UML Class Diagram for system design here: https://github.com/nrg5223/Wordle_Bot/blob/3452c56630faa655ba46d3a79446f0fa86d50a7a/Documents/UML%20Class%20Diagram.pdf
 
 ### Known Bugs
 > - There is at least one unidentified bug in SolverV6.
