@@ -1,4 +1,4 @@
-07/25/2022 @15:15 - 12974 trials run in 377:16 (first guess 'tares', subSetSize=500->1000)
+07/25/2022 @15:15 - 12974 trials run in 377:16 (first guess 'tares', guess3: subSetSize=500, guess4+: =1000)
 win percentage : 99.77647602898104%
 avg num guesses: 4.192429509463113
 avg guess time : 1995.6220449227028 ms
