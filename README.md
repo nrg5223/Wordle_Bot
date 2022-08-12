@@ -195,8 +195,8 @@ Personal project - started 6/27/2022.
 > 
 > 
 >  - With solution lib as solution lib (size 2309)
->     - Solve rate: needs tested
->     - Avg guesses: needs testing
+>     - Solve rate: 98.83%
+>     - Avg guesses: 3.94
 >  - With Wordle lib as solution lib (size 12974)
 >     - Solve rate: needs testing
 >     - Avg guesses: needs testing
