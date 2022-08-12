@@ -67,7 +67,7 @@ Personal project - started 6/27/2022.
 >
 > This is what they each do:
 > 
->      libraries   - executes web scraping and writes the Wordle library and
+>      library     - executes web scraping and writes the Wordle library and
 >                    the solution library to text files.
 >                  - additional arguments: none
 >
