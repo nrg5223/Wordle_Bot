@@ -117,6 +117,8 @@ public class Application {
                     if (args.length >= 4) {
                         numberOfTests = Integer.parseInt(args[3]);
 
+                        if (numberOfTests <= 0)
+                            throw new IllegalArgumentException();
                         numberOfTestsInitialized = true;
                     }
                 }
