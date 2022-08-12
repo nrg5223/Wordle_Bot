@@ -1,0 +1,34 @@
+package com.nrg5223.Testers;
+
+import com.nrg5223.WordleGames.Solvers.DataTypes.StringList;
+import com.nrg5223.WordleGames.Solvers.DataTypes.Word;
+import com.nrg5223.WordleGames.StatsGettingGame;
+
+import java.io.IOException;
+
+/**
+ * Used to run a number of TestingWordleGames.  The games record stats during
+ * tests.  Then they are accessed by a WordleTester object to be recorded to
+ * data/v_stats.txt where _ is the solver version.
+ *
+ * This functions exactly the same as TestSet, except all games have the same
+ * solution word.
+ */
+public class SpecificWordStatsGettingSet extends StatsGettingSet {
+
+    Word solution;
+
+    // CONSTRUCTOR(S) *********************************************************
+
+    public SpecificWordStatsGettingSet(int solverVersion, Word solution, int setSize, StringList wordleLib, StringList solutionLib) {
+        super(solverVersion, setSize, wordleLib, solutionLib);
+        this.solution = solution;
+    }
+
+    // GENERAL FUNCTIONALITY **************************************************
+
+    @Override
+    void createNewGame() throws IOException {
+        game = new StatsGettingGame(solverVersion, solution, wordleLib, solutionLib);
+    }
+}

@@ -1,0 +1,252 @@
+package com.nrg5223.WordleGames.Solvers;
+
+import com.nrg5223.Utilities.WebScraper;
+import com.nrg5223.WordleGames.Solvers.DataTypes.LetterIndexPair;
+import com.nrg5223.WordleGames.Solvers.DataTypes.LetterIndexPairMap;
+import com.nrg5223.WordleGames.Solvers.DataTypes.Word;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+
+public class SolverV41 extends SolverV3 {
+    // Maybe unused
+//    ArrayList<Word> lib = (new WebScraper()).getWordWordleLib();
+//    int libSize = lib.size();
+
+    ArrayList<Word> wordleLib = (new WebScraper()).getWordWordleLib();
+//    ArrayList<Word> potentialGuesses = (new WebScraper()).testingGetWordWordleLib();
+
+    // These are for more accurate reduction of '_'
+    HashMap<String, Integer> guaranteedLetterCountInSolution = new HashMap<>();
+    HashMap<String, Integer> guessCountPerLetter = new HashMap<>();
+    private void decrementMap(HashMap<String, Integer> solutionMap, String letter) {
+        // Note: there should not be a negative count value.  This method would
+        // produce a negative count value if given a key value with a count of
+        // 0.  This is currently impossible.
+        int previousCount = guessCountPerLetter.get(letter);
+        guessCountPerLetter.put(letter, previousCount - 1);
+    }
+    private void incrementMap(HashMap<String, Integer> guessCountPerLetter, String letter) {
+        int previousCount = guessCountPerLetter.getOrDefault(letter, 0);
+        guessCountPerLetter.put(letter, previousCount + 1);
+    }
+
+    @Override
+    public int getVersion() {
+        return 41;
+    }
+
+    @Override
+    public void analyzeClue(Word guess, String[] clue) {
+        updateLists(guess, clue);
+
+        // Below is new stuff
+
+        // Determine max count
+//        HashMap<String, Integer> hintCounts = new HashMap<>();
+//        for (int i = 0; i < 5; i++) {
+//            if ()
+//        }
+    }
+
+    @Override
+    public Word generateGuess() {
+        if (possibleSolutions.size() == startingCount)
+            return startingGuess;
+
+        if (possibleSolutions.size() <= 2)
+            return possibleSolutions.get(0);
+
+        calcWordScores();
+
+        Collections.sort(wordleLib);
+
+
+
+//        Collections.sort(possibleSolutions);
+//        System.out.println("possible solutions: ");
+//        for (Word word : possibleSolutions)
+//            System.out.println("     " + word);
+//        Collections.sort(potentialGuesses);
+//        System.out.println("potential guesses: ");
+//        for (Word word : wordleLib)
+//            System.out.println("     " + word + " " + word.score());
+
+
+
+        int index = 0;
+        Word guess = wordleLib.get(index);
+        while (!guess.allUniqueLetters()) {
+            // recalculate score
+            ArrayList<LetterIndexPair> secondLIPsOfRepeatLetters = getRepeatLetters(guess);
+            for (LetterIndexPair lip : secondLIPsOfRepeatLetters)
+                guess.setScore(calcScoreWithRepeatLetters(guess, lip.letter(), lip.index()));
+
+            // resort list
+            Collections.sort(wordleLib);
+
+            // choose next guess
+            Word newGuess = wordleLib.get(index);
+
+            // if next guess same as last guess, return guess.
+            if (guess.equals(newGuess))
+                return guess;
+            else
+                guess = newGuess;
+        }
+        return guess; // for the compiler
+
+        // If there are no words left with all unique letters, return the next
+        // highest scoring word
+//        if (allWordsHaveRepeatLetters(wordleLib))
+//            return guess;
+
+        // Choose the next-highest-scoring word that has no repeat letters
+//        while (!guess.allUniqueLetters()) {
+//            guess = wordleLib.get(++index);
+//        }
+//        return guess;
+    }
+
+    private double calcScoreWithRepeatLetters(Word word, String l, int index) {
+        double prevScore = word.score();
+
+        double scoreOfSecondOccurrence = calcAvgReductionOfLetterIndexPair(l, index);
+
+        // Subtract previous score of second occurrence LIP
+        double newScore = prevScore - scoreOfSecondOccurrence;
+
+        // scoreOfSecondOccurrence -= (odds firstOcc gets '_') * scoreOfSecondOccurrence
+        // scoreOfSecondOccurrence -= (odds firstOcc gets '?') * redFrom '?' in firstOccurrence
+
+        // Calculate new score of second occurrence LIP and add back to prevScore
+        double libSize = wordleLib.size();
+        double oddsCorrectPosFirstOcc = (libSize - countWordsWithLetterAtIndex(l, index))/libSize;
+        scoreOfSecondOccurrence -= oddsCorrectPosFirstOcc * scoreOfSecondOccurrence;
+        double oddsIncorrectPosFirstOcc = (libSize - countWordsNoLetterAtIndex(l, index))/libSize;
+        scoreOfSecondOccurrence -= oddsIncorrectPosFirstOcc * countWordsWithLetterAtIndex(l, index);
+        newScore += scoreOfSecondOccurrence; // removed score of second occ on line 119, now add back the updated score of the letter-index
+
+        return newScore;
+    }
+
+    private ArrayList<LetterIndexPair> getRepeatLetters(Word word) {
+        ArrayList<LetterIndexPair> LIPList = new ArrayList<>();
+
+
+        HashMap<String, Integer> letterCounts = new HashMap<>();
+        for (String letter : word.arr()) {
+            incrementMap(letterCounts, letter);
+        }
+        for (String letter : letterCounts.keySet())
+            if (letterCounts.get(letter) > 1)
+                // Loop backwards to get the second occurrence
+                for (int i = 4; i > -1; i--)
+                    if (word.arr()[i].equals(letter)) {
+                        LIPList.add(new LetterIndexPair(letter, i));
+                        break;
+                    }
+
+
+        if (LIPList.isEmpty())
+            throw new IllegalStateException();
+        return LIPList;
+    }
+
+    @Override
+    void calcWordScores() {
+        // Calculate average reduction of possible solutions of every word in
+        // the library
+//        pairSet.resetLetterIndexPairCounts();
+        pairSet = new LetterIndexPairSet();
+        for (Word word : wordleLib) {
+//        for (Word word : possibleSolutions) {
+            for (int i = 0; i < 5; i++) {
+                String letter = word.arr()[i];
+
+                LetterIndexPair lip = new LetterIndexPair(letter, i);
+                if (!pairSet.contains(lip)) {
+                    double value = calcAvgReductionOfLetterIndexPair(letter, i);
+                    pairSet.add(lip, value);
+                }
+            }
+            // Calculate scores for words in the Wordle library
+            word.resetScore();
+            word.calcScore(pairSet);
+        }
+
+        // For checking that it works
+//        System.out.println("===============================================================");
+//        for (Word w : possibleSolutions) {
+//            if (w.allUniqueLetters())
+//                System.out.println(w.str() + " : " + w.score());
+//        }
+//        System.out.println("===============================================================");
+    }
+
+    @Override
+    void updateLists(Word guess, String[] cluesArray) {
+        possibleSolutions.removeIf(word -> !isPossibleSolution(word, guess, cluesArray));
+//        for (int i = 0; i < 5; i++) {
+//            int finalI = i;
+//            potentialGuesses.removeIf(word -> word.containsAt(guess.arr()[finalI], finalI));
+//            potentialGuesses.removeIf(word -> word.contains(guess.arr()[finalI]));
+//        }
+    }
+
+    double calcAvgReductionOfLetterIndexPair(String letter, int i) {
+        double pSSize = possibleSolutions.size();
+        double value = 0;
+        double x = countWordsNoLetterAtIndex(letter, i);         // verified
+        double y = countWordsNoLetterOrWrongIndexLetter(letter, i);   // verified
+//        double z = countWordsWithLetterAtIndex(letter, i) +           // unchecked
+//                   countWordsWithTooManyOf(letter);
+        // The following two lines are equivalent, so I multiply the first line
+        // by 2 and remove the next line
+        value += 2*x * (pSSize - x);// / libSize;                     // verified
+        value += y * (pSSize - y);// / libSize;                     // verified
+//        value += z * (pSSize - z);// / libSize;                     // unchecked
+
+        return value;
+    }
+
+    private int countWordsWithTooManyOf(String letter) {
+        // If there is no current data on the letter, we can't know the max # of
+        // it in the solution so we skip this calculation
+        if (guaranteedLetterCountInSolution.getOrDefault(letter, -1) == -1)
+            return 0;
+
+        int count = 0;
+        for (Word word : possibleSolutions) {
+            if (word.countOf(letter) > guaranteedLetterCountInSolution.get(letter))
+                count++;
+        }
+        return count;
+    }
+
+    private int countWordsNoLetterAtIndex(String letter, int index) {
+        int count = 0;
+        for (Word word : possibleSolutions)
+            if (!word.hasLetterAt(letter, index)) { count++; }
+        return count;
+    }
+
+    private int countWordsWithLetterAtIndex(String letter, int index) {
+        return possibleSolutions.size() - countWordsNoLetterAtIndex(letter, index);
+    }
+
+    private int countWordsWithLetter(String letter) {
+        int count = 0;
+        for (Word word : possibleSolutions)
+            if (word.contains(letter)) { count++; }
+        return count;
+    }
+
+    private int countWordsNoLetterOrWrongIndexLetter(String letter, int index) {
+        int count = 0;
+        for (Word word : possibleSolutions)
+            if (!word.contains(letter) || word.containsAt(letter, index)) { count++; }
+        return count;
+    }
+}

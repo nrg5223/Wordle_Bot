@@ -1,0 +1,468 @@
+07/04/2022 @17:58 - 7 trials run
+win percentage : 85.71428571428571%
+avg num guesses: 5.0
+avg guess time : 16.2 ms
+avg game time  : 76.71428571428571 ms
+
+07/04/2022 @18:00 - 10 trials run
+win percentage : 90.0%
+avg num guesses: 3.5555555555555554
+avg guess time : 14.0 ms
+avg game time  : 49.7 ms
+
+07/04/2022 @18:00 - 10 trials run
+win percentage : 60.0%
+avg num guesses: 4.333333333333333
+avg guess time : 17.076923076923077 ms
+avg game time  : 50.4 ms
+
+07/04/2022 @18:01 - 10 trials run
+win percentage : 100.0%
+avg num guesses: 4.7
+avg guess time : 10.659574468085106 ms
+avg game time  : 50.2 ms
+
+07/04/2022 @18:03 - 91 trials run
+win percentage : 100.0%
+avg num guesses: 5.406593406593407
+avg guess time : 6.3983739837398375 ms
+avg game time  : 34.69230769230769 ms
+
+07/04/2022 @18:43 - 10 trials run
+win percentage : 100.0%
+avg num guesses: 4.6
+avg guess time : 10.543478260869565 ms
+avg game time  : 48.5 ms
+
+07/04/2022 @18:45 - 9 trials run
+win percentage : 66.66666666666667%
+avg num guesses: 4.666666666666667
+avg guess time : 16.357142857142858 ms
+avg game time  : 50.888888888888886 ms
+
+07/04/2022 @18:46 - 10 trials run
+win percentage : 70.0%
+avg num guesses: 4.142857142857143
+avg guess time : 19.689655172413794 ms
+avg game time  : 57.1 ms
+
+07/04/2022 @18:48 - 84 trials run
+win percentage : 100.0%
+avg num guesses: 5.190476190476191
+avg guess time : 6.690366972477064 ms
+avg game time  : 34.726190476190474 ms
+
+07/04/2022 @19:37 - 9 trials run
+win percentage : 100.0%
+avg num guesses: 4.666666666666667
+avg guess time : 7.095238095238095 ms
+avg game time  : 33.111111111111114 ms
+
+07/04/2022 @19:38 - 19 trials run
+win percentage : 100.0%
+avg num guesses: 4.7368421052631575
+avg guess time : 6.2 ms
+avg game time  : 29.36842105263158 ms
+
+07/04/2022 @19:38 - 44 trials run
+win percentage : 100.0%
+avg num guesses: 4.7727272727272725
+avg guess time : 4.690476190476191 ms
+avg game time  : 22.386363636363637 ms
+
+07/04/2022 @19:39 - 43 trials run
+win percentage : 100.0%
+avg num guesses: 5.046511627906977
+avg guess time : 4.640552995391705 ms
+avg game time  : 23.41860465116279 ms
+
+07/04/2022 @19:41 - 45 trials run
+win percentage : 100.0%
+avg num guesses: 4.977777777777778
+avg guess time : 3.9642857142857144 ms
+avg game time  : 19.733333333333334 ms
+
+07/04/2022 @19:43 - 45 trials run
+win percentage : 88.88888888888889%
+avg num guesses: 4.375
+avg guess time : 5.354285714285714 ms
+avg game time  : 20.822222222222223 ms
+
+07/04/2022 @21:53 - 5 trials run
+win percentage : 100.0%
+avg num guesses: 6.0
+avg guess time : 13.6 ms
+avg game time  : 81.6 ms
+
+07/04/2022 @22:12 - 5 trials run
+win percentage : 100.0%
+avg num guesses: 3.8
+avg guess time : 2.8421052631578947 ms
+avg game time  : 10.8 ms
+
+07/04/2022 @22:15 - 3 trials run
+win percentage : 100.0%
+avg num guesses: 5.0
+avg guess time : 3.533333333333333 ms
+avg game time  : 17.666666666666668 ms
+
+07/05/2022 @00:13 - 5 trials run
+win percentage : 80.0%
+avg num guesses: 4.0
+avg guess time : 2.8125 ms
+avg game time  : 9.0 ms
+
+07/05/2022 @00:14 - 5 trials run
+win percentage : 80.0%
+avg num guesses: 5.25
+avg guess time : 3.9523809523809526 ms
+avg game time  : 16.6 ms
+
+07/05/2022 @00:22 - 5 trials run
+win percentage : 80.0%
+avg num guesses: 4.25
+avg guess time : 5.352941176470588 ms
+avg game time  : 18.2 ms
+
+07/05/2022 @00:22 - 5 trials run
+win percentage : 60.0%
+avg num guesses: 3.6666666666666665
+avg guess time : 5.7272727272727275 ms
+avg game time  : 12.6 ms
+
+07/05/2022 @00:24 - 10 trials run
+win percentage : 60.0%
+avg num guesses: 4.666666666666667
+avg guess time : 4.464285714285714 ms
+avg game time  : 12.5 ms
+
+07/05/2022 @00:25 - 9 trials run
+win percentage : 77.77777777777777%
+avg num guesses: 4.142857142857143
+avg guess time : 3.7586206896551726 ms
+avg game time  : 12.11111111111111 ms
+
+07/05/2022 @00:26 - 17 trials run
+win percentage : 70.58823529411765%
+avg num guesses: 4.5
+avg guess time : 4.148148148148148 ms
+avg game time  : 13.176470588235293 ms
+
+07/05/2022 @00:30 - 18 trials run
+win percentage : 77.77777777777777%
+avg num guesses: 4.428571428571429
+avg guess time : 3.435483870967742 ms
+avg game time  : 11.833333333333334 ms
+
+07/05/2022 @00:31 - 15 trials run
+win percentage : 80.0%
+avg num guesses: 4.75
+avg guess time : 1.9473684210526316 ms
+avg game time  : 7.4 ms
+
+07/05/2022 @21:46 - 4 trials run
+win percentage : 75.0%
+avg num guesses: 5.0
+avg guess time : 3.3333333333333335 ms
+avg game time  : 12.5 ms
+
+07/05/2022 @21:50 - 3 trials run
+win percentage : 66.66666666666667%
+avg num guesses: 5.0
+avg guess time : 4.6 ms
+avg game time  : 15.333333333333334 ms
+
+07/05/2022 @21:51 - 3 trials run
+win percentage : 100.0%
+avg num guesses: 3.6666666666666665
+avg guess time : 1.5454545454545454 ms
+avg game time  : 5.666666666666667 ms
+
+07/05/2022 @23:35 - 4 trials run
+win percentage : 75.0%
+avg num guesses: 5.0
+avg guess time : 4.133333333333334 ms
+avg game time  : 15.5 ms
+
+07/05/2022 @23:36 - 5 trials run
+win percentage : 80.0%
+avg num guesses: 4.25
+avg guess time : 6.235294117647059 ms
+avg game time  : 21.2 ms
+
+07/05/2022 @23:36 - 4 trials run
+win percentage : 100.0%
+avg num guesses: 4.25
+avg guess time : 1.2352941176470589 ms
+avg game time  : 5.25 ms
+
+07/05/2022 @23:45 - 5 trials run
+win percentage : 100.0%
+avg num guesses: 4.0
+avg guess time : 3.2 ms
+avg game time  : 12.8 ms
+
+07/05/2022 @23:45 - 9 trials run
+win percentage : 100.0%
+avg num guesses: 4.222222222222222
+avg guess time : 2.710526315789474 ms
+avg game time  : 11.444444444444445 ms
+
+07/06/2022 @00:15 - 9 trials run
+win percentage : 66.66666666666667%
+avg num guesses: 3.6666666666666665
+avg guess time : 4.636363636363637 ms
+avg game time  : 11.333333333333334 ms
+
+07/06/2022 @00:19 - 10 trials run
+win percentage : 90.0%
+avg num guesses: 4.666666666666667
+avg guess time : 2.357142857142857 ms
+avg game time  : 9.9 ms
+
+07/06/2022 @00:45 - 10 trials run
+win percentage : 60.0%
+avg num guesses: 3.6666666666666665
+avg guess time : 4.409090909090909 ms
+avg game time  : 9.7 ms
+
+07/06/2022 @00:53 - 10 trials run
+win percentage : 90.0%
+avg num guesses: 4.777777777777778
+avg guess time : 2.953488372093023 ms
+avg game time  : 12.7 ms
+
+07/07/2022 @17:53 - 17 trials run
+win percentage : 64.70588235294117%
+avg num guesses: 4.545454545454546
+avg guess time : 2.68 ms
+avg game time  : 7.882352941176471 ms
+
+07/10/2022 @12:13 - 138 trials run
+win percentage : 83.33333333333333%
+avg num guesses: 4.3826086956521735
+avg guess time : 2.9305555555555554 ms
+avg game time  : 10.702898550724637 ms
+
+07/10/2022 @12:16 - 92 trials run
+win percentage : 80.43478260869566%
+avg num guesses: 4.581081081081081
+avg guess time : 1.7964601769911503 ms
+avg game time  : 6.619565217391305 ms
+
+07/10/2022 @12:36 - 5 trials run in 8.0s
+win percentage : 80.0%
+avg num guesses: 5.75
+avg guess time : 3.391304347826087 ms
+avg game time  : 15.6 ms
+
+07/10/2022 @12:36 - 4 trials run in 7.0s
+win percentage : 75.0%
+avg num guesses: 4.0
+avg guess time : 6.916666666666667 ms
+avg game time  : 20.75 ms
+
+07/10/2022 @12:37 - 4 trials run in 7.0s
+win percentage : 75.0%
+avg num guesses: 5.666666666666667
+avg guess time : 4.117647058823529 ms
+avg game time  : 17.5 ms
+
+07/10/2022 @12:42 - 88 trials run in 87.0s
+win percentage : 75.0%
+avg num guesses: 4.409090909090909
+avg guess time : 1.7697594501718212 ms
+avg game time  : 5.8522727272727275 ms
+
+07/10/2022 @12:45 - 91 trials run in 14.0s
+win percentage : 78.02197802197803%
+avg num guesses: 4.633802816901408
+avg guess time : 3.0060790273556233 ms
+avg game time  : 10.868131868131869 ms
+
+07/10/2022 @12:46 - 82 trials run in 29.0s
+win percentage : 81.70731707317073%
+avg num guesses: 4.343283582089552
+avg guess time : 2.0549828178694156 ms
+avg game time  : 7.2926829268292686 ms
+
+07/10/2022 @12:47 - 85 trials run in 19.0s
+win percentage : 80.0%
+avg num guesses: 4.647058823529412
+avg guess time : 2.759493670886076 ms
+avg game time  : 10.258823529411766 ms
+
+07/10/2022 @12:47 - 91 trials run in 18.0s
+win percentage : 89.01098901098901%
+avg num guesses: 4.493827160493828
+avg guess time : 2.357142857142857 ms
+avg game time  : 9.428571428571429 ms
+
+07/10/2022 @12:48 - 84 trials run in 16.0s
+win percentage : 80.95238095238095%
+avg num guesses: 4.661764705882353
+avg guess time : 3.0126182965299684 ms
+avg game time  : 11.369047619047619 ms
+
+07/10/2022 @12:51 - 871 trials run in 94.0s
+win percentage : 81.05625717566016%
+avg num guesses: 4.494334277620396
+avg guess time : 2.4749448471478095 ms
+avg game time  : 9.016073478760045 ms
+
+07/10/2022 @13:03 - 86 trials run in 0:12
+win percentage : 70.93023255813954%
+avg num guesses: 4.295081967213115
+avg guess time : 2.2442748091603053 ms
+avg game time  : 6.837209302325581 ms
+
+07/10/2022 @13:05 - 886 trials run in 1:31
+win percentage : 82.95711060948081%
+avg num guesses: 4.448979591836735
+avg guess time : 1.2666666666666666 ms
+avg game time  : 4.6749435665914225 ms
+
+07/10/2022 @13:27 - 88 trials run in 0:13
+win percentage : 82.95454545454545%
+avg num guesses: 4.260273972602739
+avg guess time : 2.157556270096463 ms
+avg game time  : 7.625 ms
+
+07/10/2022 @15:16 - 88 trials run in 0:16
+win percentage : 76.13636363636364%
+avg num guesses: 4.507462686567164
+avg guess time : 2.6688741721854305 ms
+avg game time  : 9.159090909090908 ms
+
+07/10/2022 @15:18 - 100 trials run with solution "raise" in 0:15
+win percentage : 100.0%
+avg num guesses: 1.0
+avg guess time : 4.81 ms
+avg game time  : 4.81 ms
+
+07/10/2022 @15:21 - 86 trials run in 0:14
+win percentage : 75.5813953488372%
+avg num guesses: 4.492307692307692
+avg guess time : 2.6198630136986303 ms
+avg game time  : 8.895348837209303 ms
+
+07/10/2022 @16:28 - 82 trials run in 0:19
+win percentage : 89.02439024390245%
+avg num guesses: 4.602739726027397
+avg guess time : 2.767857142857143 ms
+avg game time  : 11.341463414634147 ms
+
+07/10/2022 @17:17 - 86 trials run in 0:15
+win percentage : 80.23255813953489%
+avg num guesses: 4.463768115942029
+avg guess time : 3.353896103896104 ms
+avg game time  : 12.011627906976743 ms
+
+07/10/2022 @17:23 - 100 trials run with solution "raise" in 0:16
+win percentage : 100.0%
+avg num guesses: 1.0
+avg guess time : 2.95 ms
+avg game time  : 2.95 ms
+
+07/10/2022 @17:25 - 100 trials run with solution "raise" in 0:16
+win percentage : 100.0%
+avg num guesses: 1.0
+avg guess time : 3.49 ms
+avg game time  : 3.49 ms
+
+07/10/2022 @17:25 - 91 trials run in 0:15
+win percentage : 81.31868131868131%
+avg num guesses: 4.351351351351352
+avg guess time : 2.3975155279503104 ms
+avg game time  : 8.483516483516484 ms
+
+07/10/2022 @17:33 - 1000 trials run in 2:3
+win percentage : 0.1%
+avg num guesses: 1.0
+avg guess time : 22.0 ms
+avg game time  : 0.022 ms
+
+07/10/2022 @17:37 - 882 trials run in 1:44
+win percentage : 83.33333333333333%
+avg num guesses: 4.413605442176871
+avg guess time : 2.0468557336621456 ms
+avg game time  : 7.528344671201814 ms
+
+07/10/2022 @17:40 - 892 trials run in 1:47
+win percentage : 82.39910313901345%
+avg num guesses: 4.482993197278912
+avg guess time : 2.2185128983308045 ms
+avg game time  : 8.195067264573991 ms
+
+07/10/2022 @17:45 - 886 trials run in 1:43
+win percentage : 84.65011286681715%
+avg num guesses: 4.397333333333333
+avg guess time : 2.016979987871437 ms
+avg game time  : 7.507900677200903 ms
+
+07/10/2022 @17:47 - 85 trials run in 0:16
+win percentage : 85.88235294117646%
+avg num guesses: 4.506849315068493
+avg guess time : 2.1702127659574466 ms
+avg game time  : 8.4 ms
+
+07/10/2022 @17:50 - 879 trials run in 1:38
+win percentage : 81.68373151308305%
+avg num guesses: 4.433147632311978
+avg guess time : 2.4524033930254476 ms
+avg game time  : 8.880546075085324 ms
+
+07/10/2022 @20:11 - 76 trials run in 0:19
+win percentage : 88.15789473684211%
+avg num guesses: 4.298507462686567
+avg guess time : 1.875 ms
+avg game time  : 7.105263157894737 ms
+
+07/10/2022 @20:49 - 943 trials run in 1:49
+win percentage : 80.69989395546129%
+avg num guesses: 4.530880420499343
+avg guess time : 1.6374709976798143 ms
+avg game time  : 5.987274655355249 ms
+
+07/10/2022 @23:50 - 100 trials run in 0:45
+win percentage : 83.0%
+avg num guesses: 4.506024096385542
+avg guess time : 2.229946524064171 ms
+avg game time  : 8.34 ms
+
+07/10/2022 @23:54 - 100 trials run in 1:1
+win percentage : 86.0%
+avg num guesses: 4.4186046511627906
+avg guess time : 2.486842105263158 ms
+avg game time  : 9.45 ms
+
+07/10/2022 @23:57 - 100 trials run in 1:0
+win percentage : 73.0%
+avg num guesses: 4.602739726027397
+avg guess time : 2.5922619047619047 ms
+avg game time  : 8.71 ms
+
+07/11/2022 @00:33 - 10000 trials run in 18:3
+win percentage : 81.89%
+avg num guesses: 4.495664916351203
+avg guess time : 1.0185250577210376 ms
+avg game time  : 3.7497 ms
+
+07/11/2022 @00:40 - 1000 trials run in 1:29
+win percentage : 82.6%
+avg num guesses: 4.4709443099273605
+avg guess time : 1.2269157866233416 ms
+avg game time  : 4.531 ms
+
+07/12/2022 @19:53 - 1000 trials run in 1:12
+win percentage : 83.2%
+avg num guesses: 4.483173076923077
+avg guess time : 2.360053619302949 ms
+avg game time  : 8.803 ms
+
+07/12/2022 @21:48 - 100 trials run in 0:12
+win percentage : 81.0%
+avg num guesses: 4.382716049382716
+avg guess time : 1.923943661971831 ms
+avg game time  : 6.83 ms
+

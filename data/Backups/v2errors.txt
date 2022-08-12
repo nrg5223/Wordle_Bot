@@ -1,0 +1,2254 @@
+solution: wagga
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [_, _, _, ?, _]
+Guess: yamun
+     [y, a, m, u, n]
+3/6: [_, !, _, _, _]
+
+solution: stops
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, !, ?, _]
+Guess: lions
+     [l, i, o, n, s]
+2/6: [_, _, !, _, !]
+Guess: thous
+     [t, h, o, u, s]
+3/6: [?, _, !, _, !]
+Guess: pyots
+     [p, y, o, t, s]
+4/6: [?, _, !, ?, !]
+
+solution: retem
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, _, _, ?]
+Guess: liter
+     [l, i, t, e, r]
+2/6: [_, _, !, !, ?]
+
+solution: cided
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [?, _, _, !, _]
+Guess: dicey
+     [d, i, c, e, y]
+3/6: [?, !, ?, !, _]
+
+solution: arvee
+Guess: arose
+     [a, r, o, s, e]
+1/6: [!, !, _, _, !]
+Guess: argle
+     [a, r, g, l, e]
+2/6: [!, !, _, _, !]
+Guess: aruhe
+     [a, r, u, h, e]
+3/6: [!, !, _, _, !]
+
+solution: tondo
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, _, _]
+Guess: doilt
+     [d, o, i, l, t]
+2/6: [?, !, _, _, ?]
+
+solution: needs
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, ?]
+Guess: islet
+     [i, s, l, e, t]
+2/6: [_, ?, _, ?, _]
+Guess: menus
+     [m, e, n, u, s]
+3/6: [_, !, ?, _, !]
+Guess: necks
+     [n, e, c, k, s]
+4/6: [!, !, _, _, !]
+Guess: newbs
+     [n, e, w, b, s]
+5/6: [!, !, _, _, !]
+
+solution: skeos
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, ?, ?]
+Guess: solei
+     [s, o, l, e, i]
+2/6: [!, ?, _, ?, _]
+Guess: seton
+     [s, e, t, o, n]
+3/6: [!, ?, _, !, _]
+
+solution: sexer
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, _, ?, ?]
+Guess: leirs
+     [l, e, i, r, s]
+2/6: [_, !, _, ?, ?]
+Guess: resty
+     [r, e, s, t, y]
+3/6: [?, !, ?, _, _]
+Guess: serum
+     [s, e, r, u, m]
+4/6: [!, !, ?, _, _]
+
+solution: wisps
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, _]
+Guess: lints
+     [l, i, n, t, s]
+2/6: [_, !, _, _, !]
+Guess: piums
+     [p, i, u, m, s]
+3/6: [?, !, _, _, !]
+
+solution: shool
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, !, ?, _]
+Guess: lions
+     [l, i, o, n, s]
+2/6: [?, _, !, _, ?]
+Guess: smolt
+     [s, m, o, l, t]
+3/6: [!, _, !, ?, _]
+Guess: sloyd
+     [s, l, o, y, d]
+4/6: [!, ?, !, _, _]
+Guess: scowl
+     [s, c, o, w, l]
+5/6: [!, _, !, _, !]
+
+solution: sudsy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, !, _]
+Guess: tulsi
+     [t, u, l, s, i]
+2/6: [_, !, _, !, _]
+Guess: dunsh
+     [d, u, n, s, h]
+3/6: [?, !, _, !, _]
+Guess: pudsy
+     [p, u, d, s, y]
+4/6: [_, !, !, !, !]
+
+solution: abate
+Guess: arose
+     [a, r, o, s, e]
+1/6: [!, _, _, _, !]
+Guess: aline
+     [a, l, i, n, e]
+2/6: [!, _, _, _, !]
+Guess: acute
+     [a, c, u, t, e]
+3/6: [!, _, _, !, !]
+
+solution: gests
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, ?]
+Guess: islet
+     [i, s, l, e, t]
+2/6: [_, ?, _, ?, ?]
+Guess: dents
+     [d, e, n, t, s]
+3/6: [_, !, _, !, !]
+Guess: hefts
+     [h, e, f, t, s]
+4/6: [_, !, _, !, !]
+
+solution: kudus
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, _]
+Guess: lints
+     [l, i, n, t, s]
+2/6: [_, _, _, _, !]
+Guess: dumps
+     [d, u, m, p, s]
+3/6: [?, !, _, _, !]
+
+solution: prese
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, !, _, !, !]
+Guess: crise
+     [c, r, i, s, e]
+2/6: [_, !, _, !, !]
+Guess: druse
+     [d, r, u, s, e]
+3/6: [_, !, _, !, !]
+Guess: pryse
+     [p, r, y, s, e]
+4/6: [!, !, _, !, !]
+
+solution: mommy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, _, _]
+Guess: doilt
+     [d, o, i, l, t]
+2/6: [_, !, _, _, _]
+Guess: young
+     [y, o, u, n, g]
+3/6: [?, !, _, _, _]
+Guess: mochy
+     [m, o, c, h, y]
+4/6: [!, !, _, _, !]
+
+solution: axial
+Guess: arose
+     [a, r, o, s, e]
+1/6: [!, _, _, _, _]
+Guess: antic
+     [a, n, t, i, c]
+2/6: [!, _, _, ?, _]
+Guess: aduki
+     [a, d, u, k, i]
+3/6: [!, _, _, _, ?]
+
+solution: medii
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [?, _, _, ?, _]
+Guess: medic
+     [m, e, d, i, c]
+3/6: [!, !, !, !, _]
+
+solution: howso
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, !, _]
+Guess: odist
+     [o, d, i, s, t]
+2/6: [?, _, _, !, _]
+Guess: lousy
+     [l, o, u, s, y]
+3/6: [_, !, _, !, _]
+
+solution: nolos
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, ?, _]
+Guess: toils
+     [t, o, i, l, s]
+2/6: [_, !, _, ?, !]
+Guess: louns
+     [l, o, u, n, s]
+3/6: [?, !, _, ?, !]
+
+solution: iroko
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, !, !, _, _]
+Guess: droil
+     [d, r, o, i, l]
+2/6: [_, !, !, ?, _]
+Guess: irony
+     [i, r, o, n, y]
+3/6: [!, !, !, _, _]
+
+solution: soces
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, ?, ?]
+Guess: solei
+     [s, o, l, e, i]
+2/6: [!, !, _, !, _]
+Guess: soken
+     [s, o, k, e, n]
+3/6: [!, !, _, !, _]
+Guess: sowed
+     [s, o, w, e, d]
+4/6: [!, !, _, !, _]
+
+solution: taffy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [!, _, _, ?, _]
+Guess: tabun
+     [t, a, b, u, n]
+3/6: [!, !, _, _, _]
+Guess: tacky
+     [t, a, c, k, y]
+4/6: [!, !, _, _, !]
+
+solution: appay
+Guess: arose
+     [a, r, o, s, e]
+1/6: [!, _, _, _, _]
+Guess: antic
+     [a, n, t, i, c]
+2/6: [!, _, _, _, _]
+Guess: almud
+     [a, l, m, u, d]
+3/6: [!, _, _, _, _]
+
+solution: freer
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, !, _, _, ?]
+Guess: tried
+     [t, r, i, e, d]
+2/6: [_, !, _, !, _]
+Guess: cruel
+     [c, r, u, e, l]
+3/6: [_, !, _, !, _]
+Guess: yrneh
+     [y, r, n, e, h]
+4/6: [_, !, _, !, _]
+
+solution: aredd
+Guess: arose
+     [a, r, o, s, e]
+1/6: [!, !, _, _, ?]
+Guess: ariel
+     [a, r, i, e, l]
+2/6: [!, !, _, ?, _]
+Guess: arefy
+     [a, r, e, f, y]
+3/6: [!, !, !, _, _]
+
+solution: rally
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, ?, _, _, _]
+Guess: liart
+     [l, i, a, r, t]
+2/6: [?, _, ?, ?, _]
+Guess: ulnar
+     [u, l, n, a, r]
+3/6: [_, ?, _, ?, ?]
+Guess: parly
+     [p, a, r, l, y]
+4/6: [_, !, ?, !, !]
+Guess: rawly
+     [r, a, w, l, y]
+5/6: [!, !, _, !, !]
+
+solution: niton
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, _, _]
+Guess: doilt
+     [d, o, i, l, t]
+2/6: [_, ?, ?, _, ?]
+Guess: ontic
+     [o, n, t, i, c]
+3/6: [?, ?, !, ?, _]
+Guess: piton
+     [p, i, t, o, n]
+4/6: [_, !, !, !, !]
+
+solution: peise
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, !, !]
+Guess: dulse
+     [d, u, l, s, e]
+2/6: [_, _, _, !, !]
+
+solution: reels
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, _, ?, ?]
+Guess: leirs
+     [l, e, i, r, s]
+2/6: [?, !, _, ?, !]
+Guess: merls
+     [m, e, r, l, s]
+3/6: [_, !, ?, !, !]
+
+solution: yucca
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [_, _, _, ?, _]
+Guess: yamun
+     [y, a, m, u, n]
+3/6: [!, ?, _, ?, _]
+
+solution: retem
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, _, _, ?]
+Guess: liter
+     [l, i, t, e, r]
+2/6: [_, _, !, !, ?]
+
+solution: targa
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, ?, _, _, _]
+Guess: liart
+     [l, i, a, r, t]
+2/6: [_, _, ?, ?, ?]
+Guess: tyran
+     [t, y, r, a, n]
+3/6: [!, _, !, ?, _]
+
+solution: mohos
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, ?, _]
+Guess: toils
+     [t, o, i, l, s]
+2/6: [_, !, _, _, !]
+Guess: nodus
+     [n, o, d, u, s]
+3/6: [_, !, _, _, !]
+Guess: yomps
+     [y, o, m, p, s]
+4/6: [_, !, ?, _, !]
+Guess: mochs
+     [m, o, c, h, s]
+5/6: [!, !, _, ?, !]
+
+solution: jeers
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, _, ?, ?]
+Guess: leirs
+     [l, e, i, r, s]
+2/6: [_, !, _, !, !]
+Guess: tehrs
+     [t, e, h, r, s]
+3/6: [_, !, _, !, !]
+
+solution: deeps
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, ?]
+Guess: islet
+     [i, s, l, e, t]
+2/6: [_, ?, _, ?, _]
+Guess: menus
+     [m, e, n, u, s]
+3/6: [_, !, _, _, !]
+Guess: decks
+     [d, e, c, k, s]
+4/6: [!, !, _, _, !]
+
+solution: small
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, ?, _]
+Guess: litas
+     [l, i, t, a, s]
+2/6: [?, _, _, ?, ?]
+Guess: slang
+     [s, l, a, n, g]
+3/6: [!, ?, !, _, _]
+Guess: spaul
+     [s, p, a, u, l]
+4/6: [!, _, !, _, !]
+Guess: swayl
+     [s, w, a, y, l]
+5/6: [!, _, !, _, !]
+
+solution: mythy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, _]
+Guess: until
+     [u, n, t, i, l]
+2/6: [_, _, !, _, _]
+
+solution: adder
+Guess: arose
+     [a, r, o, s, e]
+1/6: [!, ?, _, _, ?]
+Guess: alter
+     [a, l, t, e, r]
+2/6: [!, _, _, !, !]
+Guess: aider
+     [a, i, d, e, r]
+3/6: [!, _, !, !, !]
+
+solution: mitts
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, _]
+Guess: lints
+     [l, i, n, t, s]
+2/6: [_, !, _, !, !]
+Guess: dicts
+     [d, i, c, t, s]
+3/6: [_, !, _, !, !]
+Guess: gifts
+     [g, i, f, t, s]
+4/6: [_, !, _, !, !]
+
+solution: kerry
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, _, _, ?]
+Guess: liter
+     [l, i, t, e, r]
+2/6: [_, _, _, ?, ?]
+Guess: nerdy
+     [n, e, r, d, y]
+3/6: [_, !, !, _, !]
+Guess: mercy
+     [m, e, r, c, y]
+4/6: [_, !, !, _, !]
+Guess: perky
+     [p, e, r, k, y]
+5/6: [_, !, !, ?, !]
+
+solution: beret
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, _, _, ?]
+Guess: liter
+     [l, i, t, e, r]
+2/6: [_, _, ?, !, ?]
+Guess: curet
+     [c, u, r, e, t]
+3/6: [_, _, !, !, !]
+Guess: mpret
+     [m, p, r, e, t]
+4/6: [_, _, !, !, !]
+
+solution: breem
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, !, _, _, ?]
+Guess: tried
+     [t, r, i, e, d]
+2/6: [_, !, _, !, _]
+Guess: cruel
+     [c, r, u, e, l]
+3/6: [_, !, _, !, _]
+Guess: yrneh
+     [y, r, n, e, h]
+4/6: [_, !, _, !, _]
+
+solution: proof
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, !, !, _, _]
+Guess: droil
+     [d, r, o, i, l]
+2/6: [_, !, !, _, _]
+Guess: tronc
+     [t, r, o, n, c]
+3/6: [_, !, !, _, _]
+Guess: group
+     [g, r, o, u, p]
+4/6: [_, !, !, _, ?]
+Guess: proxy
+     [p, r, o, x, y]
+5/6: [!, !, !, _, _]
+
+solution: trant
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, !, _, _, _]
+Guess: trial
+     [t, r, i, a, l]
+2/6: [!, !, _, ?, _]
+Guess: trank
+     [t, r, a, n, k]
+3/6: [!, !, !, !, _]
+Guess: tranq
+     [t, r, a, n, q]
+4/6: [!, !, !, !, _]
+
+solution: lezzy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [_, _, ?, ?, _]
+Guess: ledum
+     [l, e, d, u, m]
+3/6: [!, !, _, _, _]
+
+solution: eggar
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, ?, _, _, ?]
+Guess: retia
+     [r, e, t, i, a]
+2/6: [?, ?, _, _, ?]
+Guess: lader
+     [l, a, d, e, r]
+3/6: [_, ?, _, ?, !]
+Guess: embar
+     [e, m, b, a, r]
+4/6: [!, _, _, !, !]
+
+solution: auras
+Guess: arose
+     [a, r, o, s, e]
+1/6: [!, ?, _, ?, _]
+Guess: airts
+     [a, i, r, t, s]
+2/6: [!, _, !, _, !]
+
+solution: cumec
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [_, _, _, !, _]
+Guess: umped
+     [u, m, p, e, d]
+3/6: [?, ?, _, !, _]
+
+solution: pells
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, ?]
+Guess: islet
+     [i, s, l, e, t]
+2/6: [_, ?, !, ?, _]
+Guess: melds
+     [m, e, l, d, s]
+3/6: [_, !, !, _, !]
+Guess: yelps
+     [y, e, l, p, s]
+4/6: [_, !, !, ?, !]
+Guess: pelfs
+     [p, e, l, f, s]
+5/6: [!, !, !, _, !]
+
+solution: sensa
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, !, ?]
+Guess: least
+     [l, e, a, s, t]
+2/6: [_, !, ?, !, _]
+Guess: mensa
+     [m, e, n, s, a]
+3/6: [_, !, !, !, !]
+
+solution: trull
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, !, _, _, _]
+Guess: trild
+     [t, r, i, l, d]
+2/6: [!, !, _, !, _]
+Guess: truly
+     [t, r, u, l, y]
+3/6: [!, !, !, !, _]
+
+solution: bills
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, _]
+Guess: lints
+     [l, i, n, t, s]
+2/6: [?, !, _, _, !]
+Guess: pilus
+     [p, i, l, u, s]
+3/6: [_, !, !, _, !]
+Guess: milds
+     [m, i, l, d, s]
+4/6: [_, !, !, _, !]
+Guess: bilks
+     [b, i, l, k, s]
+5/6: [!, !, !, _, !]
+
+solution: anlas
+Guess: arose
+     [a, r, o, s, e]
+1/6: [!, _, _, ?, _]
+Guess: anils
+     [a, n, i, l, s]
+2/6: [!, !, _, ?, !]
+
+solution: nappa
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [_, _, _, ?, _]
+Guess: yamun
+     [y, a, m, u, n]
+3/6: [_, !, _, _, ?]
+Guess: ganch
+     [g, a, n, c, h]
+4/6: [_, !, ?, _, _]
+
+solution: anata
+Guess: arose
+     [a, r, o, s, e]
+1/6: [!, _, _, _, _]
+Guess: antic
+     [a, n, t, i, c]
+2/6: [!, !, ?, _, _]
+
+solution: weels
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, ?]
+Guess: islet
+     [i, s, l, e, t]
+2/6: [_, ?, ?, ?, _]
+Guess: lends
+     [l, e, n, d, s]
+3/6: [?, !, _, _, !]
+Guess: mewls
+     [m, e, w, l, s]
+4/6: [_, !, ?, !, !]
+
+solution: talar
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, ?, _, _, _]
+Guess: liart
+     [l, i, a, r, t]
+2/6: [?, _, ?, ?, ?]
+
+solution: guana
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [_, _, _, ?, _]
+Guess: yamun
+     [y, a, m, u, n]
+3/6: [_, ?, _, ?, ?]
+Guess: nucha
+     [n, u, c, h, a]
+4/6: [?, !, _, _, !]
+Guess: punga
+     [p, u, n, g, a]
+5/6: [_, !, ?, ?, !]
+
+solution: lycee
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, !]
+Guess: utile
+     [u, t, i, l, e]
+2/6: [_, _, _, ?, !]
+Guess: clype
+     [c, l, y, p, e]
+3/6: [?, ?, ?, _, !]
+
+solution: alias
+Guess: arose
+     [a, r, o, s, e]
+1/6: [!, _, _, ?, _]
+Guess: anils
+     [a, n, i, l, s]
+2/6: [!, _, !, ?, !]
+Guess: alifs
+     [a, l, i, f, s]
+3/6: [!, !, !, _, !]
+
+solution: sanga
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, ?, _]
+Guess: litas
+     [l, i, t, a, s]
+2/6: [_, _, _, ?, ?]
+Guess: sandy
+     [s, a, n, d, y]
+3/6: [!, !, !, _, _]
+Guess: sangh
+     [s, a, n, g, h]
+4/6: [!, !, !, !, _]
+
+solution: chaff
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [_, _, _, ?, _]
+Guess: yamun
+     [y, a, m, u, n]
+3/6: [_, ?, _, _, _]
+Guess: whack
+     [w, h, a, c, k]
+4/6: [_, !, !, ?, _]
+
+solution: moola
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, !, _, _]
+Guess: idola
+     [i, d, o, l, a]
+2/6: [_, _, !, !, !]
+Guess: chola
+     [c, h, o, l, a]
+3/6: [_, _, !, !, !]
+
+solution: thymy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, _]
+Guess: until
+     [u, n, t, i, l]
+2/6: [_, _, ?, _, _]
+
+solution: tippy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, _]
+Guess: until
+     [u, n, t, i, l]
+2/6: [_, _, ?, ?, _]
+Guess: dicty
+     [d, i, c, t, y]
+3/6: [_, !, _, ?, !]
+
+solution: seame
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, ?, !]
+Guess: isnae
+     [i, s, n, a, e]
+2/6: [_, ?, _, ?, !]
+Guess: stale
+     [s, t, a, l, e]
+3/6: [!, _, !, _, !]
+Guess: spade
+     [s, p, a, d, e]
+4/6: [!, _, !, _, !]
+Guess: shame
+     [s, h, a, m, e]
+5/6: [!, _, !, !, !]
+
+solution: veney
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [_, ?, _, !, _]
+Guess: pyned
+     [p, y, n, e, d]
+3/6: [_, ?, !, !, _]
+
+solution: teles
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, ?]
+Guess: islet
+     [i, s, l, e, t]
+2/6: [_, ?, !, !, ?]
+Guess: tules
+     [t, u, l, e, s]
+3/6: [!, _, !, !, !]
+
+solution: tenne
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, !]
+Guess: utile
+     [u, t, i, l, e]
+2/6: [_, ?, _, _, !]
+Guess: tynde
+     [t, y, n, d, e]
+3/6: [!, _, !, _, !]
+
+solution: gynny
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, _]
+Guess: until
+     [u, n, t, i, l]
+2/6: [_, ?, _, _, _]
+Guess: chynd
+     [c, h, y, n, d]
+3/6: [_, _, ?, !, _]
+
+solution: triff
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, !, _, _, _]
+Guess: trild
+     [t, r, i, l, d]
+2/6: [!, !, !, _, _]
+Guess: tripy
+     [t, r, i, p, y]
+3/6: [!, !, !, _, _]
+Guess: trick
+     [t, r, i, c, k]
+4/6: [!, !, !, _, _]
+
+solution: butts
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, _]
+Guess: lints
+     [l, i, n, t, s]
+2/6: [_, _, _, !, !]
+Guess: ducts
+     [d, u, c, t, s]
+3/6: [_, !, _, !, !]
+Guess: yufts
+     [y, u, f, t, s]
+4/6: [_, !, _, !, !]
+
+solution: torii
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, ?, _, _]
+Guess: lirot
+     [l, i, r, o, t]
+2/6: [_, ?, !, ?, ?]
+Guess: toric
+     [t, o, r, i, c]
+3/6: [!, !, !, !, _]
+
+solution: syces
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, ?]
+Guess: islet
+     [i, s, l, e, t]
+2/6: [_, ?, _, !, _]
+Guess: dunes
+     [d, u, n, e, s]
+3/6: [_, _, _, !, !]
+Guess: cymes
+     [c, y, m, e, s]
+4/6: [?, !, _, !, !]
+Guess: fyces
+     [f, y, c, e, s]
+5/6: [_, !, !, !, !]
+
+solution: glial
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [_, ?, _, !, !]
+Guess: phial
+     [p, h, i, a, l]
+3/6: [_, _, !, !, !]
+
+nullsolution: beare
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, ?, _, _, !]
+Guess: raile
+     [r, a, i, l, e]
+2/6: [?, ?, _, _, !]
+Guess: thrae
+     [t, h, r, a, e]
+3/6: [_, _, ?, ?, !]
+Guess: quare
+     [q, u, a, r, e]
+4/6: [_, _, !, !, !]
+
+solution: cabal
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [_, _, _, !, !]
+Guess: pygal
+     [p, y, g, a, l]
+3/6: [_, _, _, !, !]
+
+solution: pipal
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [_, !, _, !, !]
+Guess: binal
+     [b, i, n, a, l]
+3/6: [_, !, _, !, !]
+Guess: pical
+     [p, i, c, a, l]
+4/6: [!, !, _, !, !]
+
+solution: emery
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, _, _, ?]
+Guess: liter
+     [l, i, t, e, r]
+2/6: [_, _, _, ?, ?]
+Guess: nerdy
+     [n, e, r, d, y]
+3/6: [_, ?, ?, _, !]
+Guess: query
+     [q, u, e, r, y]
+4/6: [_, _, !, !, !]
+
+solution: theed
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [_, _, _, !, ?]
+Guess: muted
+     [m, u, t, e, d]
+3/6: [_, _, ?, !, !]
+Guess: typed
+     [t, y, p, e, d]
+4/6: [!, _, _, !, !]
+
+solution: preve
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, !, _, _, !]
+Guess: trine
+     [t, r, i, n, e]
+2/6: [_, !, _, _, !]
+Guess: brule
+     [b, r, u, l, e]
+3/6: [_, !, _, _, !]
+Guess: gryde
+     [g, r, y, d, e]
+4/6: [_, !, _, _, !]
+
+solution: pooka
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, !, _, _]
+Guess: idola
+     [i, d, o, l, a]
+2/6: [_, _, !, _, !]
+Guess: chota
+     [c, h, o, t, a]
+3/6: [_, _, !, _, !]
+Guess: ngoma
+     [n, g, o, m, a]
+4/6: [_, _, !, _, !]
+
+solution: leery
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, _, _, ?]
+Guess: liter
+     [l, i, t, e, r]
+2/6: [!, _, _, ?, ?]
+
+solution: dacha
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [_, _, ?, ?, _]
+Guess: maund
+     [m, a, u, n, d]
+3/6: [_, !, _, _, ?]
+Guess: daych
+     [d, a, y, c, h]
+4/6: [!, !, _, ?, ?]
+
+solution: octet
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, _, ?]
+Guess: teloi
+     [t, e, l, o, i]
+2/6: [?, ?, _, ?, _]
+Guess: noted
+     [n, o, t, e, d]
+3/6: [_, ?, !, !, _]
+Guess: buteo
+     [b, u, t, e, o]
+4/6: [_, _, !, !, ?]
+
+solution: taffy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [!, _, _, ?, _]
+Guess: tabun
+     [t, a, b, u, n]
+3/6: [!, !, _, _, _]
+Guess: tacky
+     [t, a, c, k, y]
+4/6: [!, !, _, _, !]
+
+solution: paska
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, ?, _]
+Guess: litas
+     [l, i, t, a, s]
+2/6: [_, _, _, ?, ?]
+Guess: sandy
+     [s, a, n, d, y]
+3/6: [?, !, _, _, _]
+Guess: pashm
+     [p, a, s, h, m]
+4/6: [!, !, !, _, _]
+
+solution: horah
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, ?, ?, _, _]
+Guess: ratio
+     [r, a, t, i, o]
+2/6: [?, ?, _, _, ?]
+Guess: loran
+     [l, o, r, a, n]
+3/6: [_, !, !, !, _]
+Guess: moray
+     [m, o, r, a, y]
+4/6: [_, !, !, !, _]
+Guess: borak
+     [b, o, r, a, k]
+5/6: [_, !, !, !, _]
+
+solution: bindi
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, _]
+Guess: until
+     [u, n, t, i, l]
+2/6: [_, ?, _, ?, _]
+Guess: dying
+     [d, y, i, n, g]
+3/6: [?, _, ?, ?, _]
+
+solution: kanas
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, ?, _]
+Guess: litas
+     [l, i, t, a, s]
+2/6: [_, _, _, !, !]
+Guess: punas
+     [p, u, n, a, s]
+3/6: [_, _, !, !, !]
+Guess: mynas
+     [m, y, n, a, s]
+4/6: [_, _, !, !, !]
+
+solution: plaza
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [_, _, _, ?, ?]
+Guess: balun
+     [b, a, l, u, n]
+3/6: [_, ?, ?, _, _]
+Guess: clamp
+     [c, l, a, m, p]
+4/6: [_, !, !, _, ?]
+
+solution: nevel
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [_, ?, ?, !, _]
+Guess: dynel
+     [d, y, n, e, l]
+3/6: [_, _, ?, !, !]
+
+solution: edema
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, ?]
+Guess: telia
+     [t, e, l, i, a]
+2/6: [_, ?, _, _, !]
+Guess: hyena
+     [h, y, e, n, a]
+3/6: [_, _, !, _, !]
+
+solution: tyees
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, ?]
+Guess: islet
+     [i, s, l, e, t]
+2/6: [_, ?, _, !, ?]
+Guess: tunes
+     [t, u, n, e, s]
+3/6: [!, _, _, !, !]
+Guess: types
+     [t, y, p, e, s]
+4/6: [!, !, _, !, !]
+Guess: tykes
+     [t, y, k, e, s]
+5/6: [!, !, _, !, !]
+
+solution: bassi
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, !, _]
+Guess: maist
+     [m, a, i, s, t]
+2/6: [_, !, ?, !, _]
+
+solution: saree
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, ?, _, ?, !]
+Guess: stare
+     [s, t, a, r, e]
+2/6: [!, _, ?, ?, !]
+Guess: scrae
+     [s, c, r, a, e]
+3/6: [!, _, !, ?, !]
+Guess: sarge
+     [s, a, r, g, e]
+4/6: [!, !, !, _, !]
+
+solution: zezes
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, ?]
+Guess: islet
+     [i, s, l, e, t]
+2/6: [_, ?, _, !, _]
+Guess: dunes
+     [d, u, n, e, s]
+3/6: [_, _, _, !, !]
+Guess: cymes
+     [c, y, m, e, s]
+4/6: [_, _, _, !, !]
+
+solution: noddy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, _, _]
+Guess: doilt
+     [d, o, i, l, t]
+2/6: [?, !, _, _, _]
+Guess: pound
+     [p, o, u, n, d]
+3/6: [_, !, _, ?, ?]
+
+solution: meare
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, ?, _, _, !]
+Guess: raile
+     [r, a, i, l, e]
+2/6: [?, ?, _, _, !]
+Guess: thrae
+     [t, h, r, a, e]
+3/6: [_, _, ?, ?, !]
+Guess: quare
+     [q, u, a, r, e]
+4/6: [_, _, !, !, !]
+
+solution: tikka
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [!, !, _, ?, _]
+
+solution: huzzy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, _]
+Guess: until
+     [u, n, t, i, l]
+2/6: [?, _, _, _, _]
+Guess: dumpy
+     [d, u, m, p, y]
+3/6: [_, !, _, _, !]
+Guess: gucky
+     [g, u, c, k, y]
+4/6: [_, !, _, _, !]
+
+solution: immix
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, _]
+Guess: until
+     [u, n, t, i, l]
+2/6: [_, _, _, !, _]
+Guess: zymic
+     [z, y, m, i, c]
+3/6: [_, _, !, !, _]
+
+solution: leben
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [_, ?, ?, !, _]
+Guess: dynel
+     [d, y, n, e, l]
+3/6: [_, _, ?, !, ?]
+Guess: lumen
+     [l, u, m, e, n]
+4/6: [!, _, _, !, !]
+
+solution: cleck
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [_, _, ?, ?, _]
+Guess: ledum
+     [l, e, d, u, m]
+3/6: [?, ?, _, _, _]
+Guess: chelp
+     [c, h, e, l, p]
+4/6: [!, _, !, ?, _]
+
+solution: snubs
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, _]
+Guess: lints
+     [l, i, n, t, s]
+2/6: [_, _, ?, _, !]
+Guess: numbs
+     [n, u, m, b, s]
+3/6: [?, ?, _, !, !]
+Guess: knubs
+     [k, n, u, b, s]
+4/6: [_, !, !, !, !]
+
+solution: churr
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, _, _, _]
+Guess: rutin
+     [r, u, t, i, n]
+2/6: [?, ?, _, _, _]
+Guess: churl
+     [c, h, u, r, l]
+3/6: [!, !, !, !, _]
+
+solution: doggo
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, _, _]
+Guess: doilt
+     [d, o, i, l, t]
+2/6: [!, !, _, _, _]
+Guess: downy
+     [d, o, w, n, y]
+3/6: [!, !, _, _, _]
+Guess: dough
+     [d, o, u, g, h]
+4/6: [!, !, _, !, _]
+
+solution: katal
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [?, _, _, !, !]
+
+solution: nouny
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, _, _]
+Guess: doilt
+     [d, o, i, l, t]
+2/6: [_, !, _, _, _]
+Guess: young
+     [y, o, u, n, g]
+3/6: [?, !, !, !, _]
+
+solution: groof
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, !, !, _, _]
+Guess: droil
+     [d, r, o, i, l]
+2/6: [_, !, !, _, _]
+Guess: tronc
+     [t, r, o, n, c]
+3/6: [_, !, !, _, _]
+Guess: group
+     [g, r, o, u, p]
+4/6: [!, !, !, _, _]
+Guess: grovy
+     [g, r, o, v, y]
+5/6: [!, !, !, _, _]
+
+solution: occur
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, ?, _, _]
+Guess: lirot
+     [l, i, r, o, t]
+2/6: [_, _, ?, ?, _]
+Guess: round
+     [r, o, u, n, d]
+3/6: [?, ?, ?, _, _]
+Guess: mucro
+     [m, u, c, r, o]
+4/6: [_, ?, !, ?, ?]
+
+solution: kroon
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, !, !, _, _]
+Guess: droil
+     [d, r, o, i, l]
+2/6: [_, !, !, _, _]
+Guess: tronc
+     [t, r, o, n, c]
+3/6: [_, !, !, ?, _]
+Guess: proyn
+     [p, r, o, y, n]
+4/6: [_, !, !, _, !]
+Guess: grown
+     [g, r, o, w, n]
+5/6: [_, !, !, _, !]
+
+solution: crier
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, !, _, _, ?]
+Guess: tried
+     [t, r, i, e, d]
+2/6: [_, !, !, !, _]
+Guess: prief
+     [p, r, i, e, f]
+3/6: [_, !, !, !, _]
+
+solution: imari
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, ?, _, _, _]
+Guess: liart
+     [l, i, a, r, t]
+2/6: [_, ?, !, !, _]
+Guess: inarm
+     [i, n, a, r, m]
+3/6: [!, _, !, !, ?]
+
+solution: neddy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [_, ?, _, ?, _]
+Guess: pendu
+     [p, e, n, d, u]
+3/6: [_, !, ?, !, _]
+
+solution: wenny
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [_, ?, _, ?, _]
+Guess: pendu
+     [p, e, n, d, u]
+3/6: [_, !, !, _, _]
+Guess: bench
+     [b, e, n, c, h]
+4/6: [_, !, !, _, _]
+
+solution: mimsy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, !, _]
+Guess: tulsi
+     [t, u, l, s, i]
+2/6: [_, _, _, !, ?]
+Guess: knish
+     [k, n, i, s, h]
+3/6: [_, _, ?, !, _]
+Guess: gipsy
+     [g, i, p, s, y]
+4/6: [_, !, _, !, !]
+
+solution: stims
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, _]
+Guess: lints
+     [l, i, n, t, s]
+2/6: [_, ?, _, ?, !]
+Guess: cutis
+     [c, u, t, i, s]
+3/6: [_, _, ?, ?, !]
+Guess: thigs
+     [t, h, i, g, s]
+4/6: [?, _, !, _, !]
+
+solution: wakas
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, ?, _]
+Guess: litas
+     [l, i, t, a, s]
+2/6: [_, _, _, !, !]
+Guess: punas
+     [p, u, n, a, s]
+3/6: [_, _, _, !, !]
+Guess: cymas
+     [c, y, m, a, s]
+4/6: [_, _, _, !, !]
+
+solution: phene
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, !]
+Guess: utile
+     [u, t, i, l, e]
+2/6: [_, _, _, _, !]
+Guess: hynde
+     [h, y, n, d, e]
+3/6: [?, _, ?, _, !]
+
+solution: seeld
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, ?]
+Guess: islet
+     [i, s, l, e, t]
+2/6: [_, ?, ?, ?, _]
+Guess: lends
+     [l, e, n, d, s]
+3/6: [?, !, _, ?, ?]
+
+solution: anent
+Guess: arose
+     [a, r, o, s, e]
+1/6: [!, _, _, _, ?]
+Guess: alien
+     [a, l, i, e, n]
+2/6: [!, _, _, ?, ?]
+Guess: ament
+     [a, m, e, n, t]
+3/6: [!, _, !, !, !]
+Guess: ahent
+     [a, h, e, n, t]
+4/6: [!, _, !, !, !]
+Guess: agent
+     [a, g, e, n, t]
+5/6: [!, _, !, !, !]
+
+solution: mutts
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, _]
+Guess: lints
+     [l, i, n, t, s]
+2/6: [_, _, _, !, !]
+Guess: ducts
+     [d, u, c, t, s]
+3/6: [_, !, _, !, !]
+Guess: yufts
+     [y, u, f, t, s]
+4/6: [_, !, _, !, !]
+
+solution: tatus
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, ?, _]
+Guess: litas
+     [l, i, t, a, s]
+2/6: [_, _, !, ?, !]
+Guess: patus
+     [p, a, t, u, s]
+3/6: [_, !, !, !, !]
+Guess: vatus
+     [v, a, t, u, s]
+4/6: [_, !, !, !, !]
+
+solution: zuzim
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, _]
+Guess: until
+     [u, n, t, i, l]
+2/6: [?, _, _, !, _]
+Guess: cupid
+     [c, u, p, i, d]
+3/6: [_, !, _, !, _]
+Guess: mujik
+     [m, u, j, i, k]
+4/6: [?, !, _, !, _]
+
+solution: hence
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, !]
+Guess: utile
+     [u, t, i, l, e]
+2/6: [_, _, _, _, !]
+Guess: hynde
+     [h, y, n, d, e]
+3/6: [!, _, !, _, !]
+
+solution: piani
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [_, !, _, ?, _]
+Guess: kiang
+     [k, i, a, n, g]
+3/6: [_, !, !, !, _]
+
+solution: elegy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [_, _, ?, ?, _]
+Guess: ledum
+     [l, e, d, u, m]
+3/6: [?, ?, _, _, _]
+Guess: chelp
+     [c, h, e, l, p]
+4/6: [_, _, !, ?, _]
+Guess: gleby
+     [g, l, e, b, y]
+5/6: [?, !, !, _, !]
+
+solution: bobol
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, _, _]
+Guess: doilt
+     [d, o, i, l, t]
+2/6: [_, !, _, ?, _]
+Guess: locum
+     [l, o, c, u, m]
+3/6: [?, !, _, _, _]
+Guess: folky
+     [f, o, l, k, y]
+4/6: [_, !, ?, _, _]
+
+solution: kinin
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, _]
+Guess: until
+     [u, n, t, i, l]
+2/6: [_, ?, _, !, _]
+
+solution: kevel
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [_, _, ?, !, _]
+Guess: clued
+     [c, l, u, e, d]
+3/6: [_, ?, _, !, _]
+
+solution: penna
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, ?]
+Guess: telia
+     [t, e, l, i, a]
+2/6: [_, !, _, _, !]
+Guess: genua
+     [g, e, n, u, a]
+3/6: [_, !, !, _, !]
+
+solution: skits
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, _]
+Guess: lints
+     [l, i, n, t, s]
+2/6: [_, ?, _, !, !]
+Guess: duits
+     [d, u, i, t, s]
+3/6: [_, _, !, !, !]
+Guess: chits
+     [c, h, i, t, s]
+4/6: [_, _, !, !, !]
+
+solution: skoff
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, !, ?, _]
+Guess: lions
+     [l, i, o, n, s]
+2/6: [_, _, !, _, ?]
+Guess: scout
+     [s, c, o, u, t]
+3/6: [!, _, !, _, _]
+Guess: skody
+     [s, k, o, d, y]
+4/6: [!, !, !, _, _]
+
+solution: weedy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [_, _, _, ?, _]
+Guess: degum
+     [d, e, g, u, m]
+3/6: [?, !, _, _, _]
+
+solution: dryer
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, !, _, _, ?]
+Guess: tried
+     [t, r, i, e, d]
+2/6: [_, !, _, !, ?]
+
+solution: agita
+Guess: arose
+     [a, r, o, s, e]
+1/6: [!, _, _, _, _]
+Guess: antic
+     [a, n, t, i, c]
+2/6: [!, _, ?, ?, _]
+Guess: aguti
+     [a, g, u, t, i]
+3/6: [!, !, _, !, ?]
+
+solution: glogg
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, !, _, _]
+Guess: tholi
+     [t, h, o, l, i]
+2/6: [_, _, !, ?, _]
+Guess: blond
+     [b, l, o, n, d]
+3/6: [_, !, !, _, _]
+Guess: plouk
+     [p, l, o, u, k]
+4/6: [_, !, !, _, _]
+
+solution: cooms
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, !, ?, _]
+Guess: lions
+     [l, i, o, n, s]
+2/6: [_, _, !, _, !]
+Guess: thous
+     [t, h, o, u, s]
+3/6: [_, _, !, _, !]
+Guess: myops
+     [m, y, o, p, s]
+4/6: [?, _, !, _, !]
+
+solution: moola
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, !, _, _]
+Guess: idola
+     [i, d, o, l, a]
+2/6: [_, _, !, !, !]
+Guess: chola
+     [c, h, o, l, a]
+3/6: [_, _, !, !, !]
+
+solution: laldy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [_, _, ?, ?, ?]
+Guess: laund
+     [l, a, u, n, d]
+3/6: [!, !, _, _, ?]
+
+solution: reset
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, _, ?, ?]
+Guess: leirs
+     [l, e, i, r, s]
+2/6: [_, !, _, ?, ?]
+Guess: resty
+     [r, e, s, t, y]
+3/6: [!, !, !, ?, _]
+
+solution: shwas
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, ?, _]
+Guess: litas
+     [l, i, t, a, s]
+2/6: [_, _, _, !, !]
+Guess: punas
+     [p, u, n, a, s]
+3/6: [_, _, _, !, !]
+Guess: cymas
+     [c, y, m, a, s]
+4/6: [_, _, _, !, !]
+
+solution: zowee
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, _, !]
+Guess: toile
+     [t, o, i, l, e]
+2/6: [_, !, _, _, !]
+Guess: monde
+     [m, o, n, d, e]
+3/6: [_, !, _, _, !]
+Guess: coupe
+     [c, o, u, p, e]
+4/6: [_, !, _, _, !]
+Guess: howbe
+     [h, o, w, b, e]
+5/6: [_, !, !, _, !]
+
+solution: tenny
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [_, ?, _, ?, ?]
+Guess: tendu
+     [t, e, n, d, u]
+3/6: [!, !, !, _, _]
+Guess: tench
+     [t, e, n, c, h]
+4/6: [!, !, !, _, _]
+
+solution: kipps
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, _]
+Guess: lints
+     [l, i, n, t, s]
+2/6: [_, !, _, _, !]
+Guess: piums
+     [p, i, u, m, s]
+3/6: [?, !, _, _, !]
+
+solution: vehme
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, !]
+Guess: utile
+     [u, t, i, l, e]
+2/6: [_, _, _, _, !]
+Guess: hynde
+     [h, y, n, d, e]
+3/6: [?, _, _, _, !]
+
+solution: stuff
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, _]
+Guess: lints
+     [l, i, n, t, s]
+2/6: [_, _, _, ?, ?]
+Guess: study
+     [s, t, u, d, y]
+3/6: [!, !, !, _, _]
+Guess: stump
+     [s, t, u, m, p]
+4/6: [!, !, !, _, _]
+Guess: stuck
+     [s, t, u, c, k]
+5/6: [!, !, !, _, _]
+
+solution: ganja
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [_, _, _, ?, _]
+Guess: yamun
+     [y, a, m, u, n]
+3/6: [_, !, _, _, ?]
+Guess: ganch
+     [g, a, n, c, h]
+4/6: [!, !, !, _, _]
+
+solution: eyrir
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, _, _, ?]
+Guess: liter
+     [l, i, t, e, r]
+2/6: [_, ?, _, ?, !]
+Guess: kefir
+     [k, e, f, i, r]
+3/6: [_, ?, _, !, !]
+
+solution: pogge
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, _, !]
+Guess: toile
+     [t, o, i, l, e]
+2/6: [_, !, _, _, !]
+Guess: monde
+     [m, o, n, d, e]
+3/6: [_, !, _, _, !]
+Guess: coupe
+     [c, o, u, p, e]
+4/6: [_, !, _, ?, !]
+Guess: kopje
+     [k, o, p, j, e]
+5/6: [_, !, ?, _, !]
+
+solution: cleve
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, !]
+Guess: utile
+     [u, t, i, l, e]
+2/6: [_, _, _, ?, !]
+Guess: clype
+     [c, l, y, p, e]
+3/6: [!, !, _, _, !]
+
+solution: aloof
+Guess: arose
+     [a, r, o, s, e]
+1/6: [!, _, !, _, _]
+Guess: aloin
+     [a, l, o, i, n]
+2/6: [!, !, !, _, _]
+Guess: aloud
+     [a, l, o, u, d]
+3/6: [!, !, !, _, _]
+Guess: aloft
+     [a, l, o, f, t]
+4/6: [!, !, !, ?, _]
+
+solution: maggs
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, ?, _]
+Guess: litas
+     [l, i, t, a, s]
+2/6: [_, _, _, ?, !]
+Guess: duans
+     [d, u, a, n, s]
+3/6: [_, _, ?, _, !]
+Guess: camps
+     [c, a, m, p, s]
+4/6: [_, !, ?, _, !]
+Guess: hawms
+     [h, a, w, m, s]
+5/6: [_, !, _, ?, !]
+
+solution: gesso
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, !, ?]
+Guess: doest
+     [d, o, e, s, t]
+2/6: [_, ?, ?, !, _]
+
+solution: sella
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, ?, ?]
+Guess: steal
+     [s, t, e, a, l]
+2/6: [!, _, ?, ?, ?]
+Guess: salep
+     [s, a, l, e, p]
+3/6: [!, ?, !, ?, _]
+Guess: selva
+     [s, e, l, v, a]
+4/6: [!, !, !, _, !]
+
+solution: toddy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, _, _]
+Guess: doilt
+     [d, o, i, l, t]
+2/6: [?, !, _, _, ?]
+
+solution: breme
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, !, _, _, !]
+Guess: trine
+     [t, r, i, n, e]
+2/6: [_, !, _, _, !]
+Guess: brule
+     [b, r, u, l, e]
+3/6: [!, !, _, _, !]
+
+solution: dildo
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, _, _]
+Guess: doilt
+     [d, o, i, l, t]
+2/6: [!, ?, ?, ?, _]
+
+solution: woosh
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, !, !, _]
+Guess: glost
+     [g, l, o, s, t]
+2/6: [_, _, !, !, _]
+Guess: nkosi
+     [n, k, o, s, i]
+3/6: [_, _, !, !, _]
+
+solution: hubby
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, _]
+Guess: until
+     [u, n, t, i, l]
+2/6: [?, _, _, _, _]
+Guess: dumpy
+     [d, u, m, p, y]
+3/6: [_, !, _, _, !]
+Guess: gucky
+     [g, u, c, k, y]
+4/6: [_, !, _, _, !]
+
+solution: allod
+Guess: arose
+     [a, r, o, s, e]
+1/6: [!, _, ?, _, _]
+Guess: auloi
+     [a, u, l, o, i]
+2/6: [!, _, !, !, _]
+Guess: azlon
+     [a, z, l, o, n]
+3/6: [!, _, !, !, _]
+Guess: aglow
+     [a, g, l, o, w]
+4/6: [!, _, !, !, _]
+
+solution: banak
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [_, _, _, !, _]
+Guess: unpay
+     [u, n, p, a, y]
+3/6: [_, ?, _, !, _]
+
+solution: again
+Guess: arose
+     [a, r, o, s, e]
+1/6: [!, _, _, _, _]
+Guess: antic
+     [a, n, t, i, c]
+2/6: [!, ?, _, !, _]
+Guess: algin
+     [a, l, g, i, n]
+3/6: [!, _, ?, !, !]
+
+solution: reeky
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, _, _, ?]
+Guess: liter
+     [l, i, t, e, r]
+2/6: [_, _, _, ?, ?]
+Guess: nerdy
+     [n, e, r, d, y]
+3/6: [_, !, ?, _, !]
+Guess: rebuy
+     [r, e, b, u, y]
+4/6: [!, !, _, _, !]
+
+solution: rieve
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, _, _, !]
+Guess: litre
+     [l, i, t, r, e]
+2/6: [_, !, _, ?, !]
+Guess: ridge
+     [r, i, d, g, e]
+3/6: [!, !, _, _, !]
+
+solution: salat
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, ?, _]
+Guess: litas
+     [l, i, t, a, s]
+2/6: [?, _, ?, !, ?]
+Guess: splat
+     [s, p, l, a, t]
+3/6: [!, _, !, !, !]
+
+solution: leben
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, _, ?]
+Guess: inlet
+     [i, n, l, e, t]
+2/6: [_, ?, ?, !, _]
+Guess: dynel
+     [d, y, n, e, l]
+3/6: [_, _, ?, !, ?]
+Guess: lumen
+     [l, u, m, e, n]
+4/6: [!, _, _, !, !]
+
+solution: telae
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, !]
+Guess: liane
+     [l, i, a, n, e]
+2/6: [?, _, ?, _, !]
+Guess: table
+     [t, a, b, l, e]
+3/6: [!, ?, _, ?, !]
+
+solution: noddy
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, _, _]
+Guess: doilt
+     [d, o, i, l, t]
+2/6: [?, !, _, _, _]
+Guess: pound
+     [p, o, u, n, d]
+3/6: [_, !, _, ?, ?]
+
+solution: hamba
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, _, _, _]
+Guess: tidal
+     [t, i, d, a, l]
+2/6: [_, _, _, ?, _]
+Guess: yamun
+     [y, a, m, u, n]
+3/6: [_, !, !, _, _]
+
+solution: dados
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, _, ?, ?, _]
+Guess: iotas
+     [i, o, t, a, s]
+2/6: [_, ?, _, ?, !]
+Guess: odals
+     [o, d, a, l, s]
+3/6: [?, ?, ?, _, !]
+Guess: dagos
+     [d, a, g, o, s]
+4/6: [!, !, _, !, !]
+
+solution: eerie
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, ?, _, _, !]
+Guess: litre
+     [l, i, t, r, e]
+2/6: [_, ?, _, ?, !]
+Guess: rudie
+     [r, u, d, i, e]
+3/6: [?, _, _, !, !]
+Guess: kyrie
+     [k, y, r, i, e]
+4/6: [_, _, !, !, !]
+
+solution: siles
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, ?]
+Guess: islet
+     [i, s, l, e, t]
+2/6: [?, ?, !, !, _]
+Guess: silen
+     [s, i, l, e, n]
+3/6: [!, !, !, !, _]
+Guess: siled
+     [s, i, l, e, d]
+4/6: [!, !, !, !, _]
+Guess: silex
+     [s, i, l, e, x]
+5/6: [!, !, !, !, _]
+
+solution: pekoe
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, ?, _, !]
+Guess: toile
+     [t, o, i, l, e]
+2/6: [_, ?, _, _, !]
+Guess: ounce
+     [o, u, n, c, e]
+3/6: [?, _, _, _, !]
+
+solution: darga
+Guess: arose
+     [a, r, o, s, e]
+1/6: [?, ?, _, _, _]
+Guess: liart
+     [l, i, a, r, t]
+2/6: [_, _, ?, ?, _]
+Guess: upran
+     [u, p, r, a, n]
+3/6: [_, _, !, ?, _]
+Guess: cardy
+     [c, a, r, d, y]
+4/6: [_, !, !, ?, _]
+
+solution: twits
+Guess: arose
+     [a, r, o, s, e]
+1/6: [_, _, _, ?, _]
+Guess: lints
+     [l, i, n, t, s]
+2/6: [_, ?, _, !, !]
+Guess: duits
+     [d, u, i, t, s]
+3/6: [_, _, !, !, !]
+Guess: chits
+     [c, h, i, t, s]
+4/6: [_, _, !, !, !]
+

@@ -1,0 +1,238 @@
+package com.nrg5223.Testers.Research;
+
+import com.nrg5223.Utilities.WebScraper;
+import com.nrg5223.WordleGames.Solvers.DataTypes.Word;
+
+import java.util.ArrayList;
+
+public class SubResearcher implements Runnable {
+    ArrayList<Word> wordleLib;
+    StringBuilder combosStr = new StringBuilder();
+
+    int fromIndex;
+    int toIndex;
+
+
+    public SubResearcher(int fromIndex, int toIndex) {
+        this.fromIndex = fromIndex;
+        this.toIndex = toIndex;
+
+        wordleLib = (new WebScraper()).getWordWordleLib();
+//        wordleLib = (new WebScraper()).testingGetWordWordleLib();
+        System.out.println("Constructing subResearcher...");
+        removeJQVWXYZWords();
+//        removeNonAIPRSTWords();
+//        Collections.sort(wordleLib);
+        System.out.println("Starting combo search...");
+    }
+
+    // Only filling it with common letters
+    ArrayList<String> alphabet = new ArrayList<>();
+
+    public void fillAlphabet() {
+        alphabet.add("a");
+        alphabet.add("b");
+        alphabet.add("c");
+        alphabet.add("d");
+        alphabet.add("e");
+        alphabet.add("f");
+        alphabet.add("g");
+        alphabet.add("h");
+        alphabet.add("i");
+        //            j
+        alphabet.add("k");
+        alphabet.add("l");
+        alphabet.add("m");
+        alphabet.add("n");
+        alphabet.add("o");
+        alphabet.add("p");
+        //            q
+        alphabet.add("r");
+        alphabet.add("s");
+        alphabet.add("t");
+        alphabet.add("u");
+        //            v
+        //            w
+        //            x
+        alphabet.add("y");
+        //            z
+    }
+
+    public void removeJQVWXYZWords() {
+        wordleLib.removeIf(word ->
+                            word.contains("j") ||
+                            word.contains("q") ||
+                            word.contains("v") ||
+                            word.contains("w") ||
+                            word.contains("x") ||
+                            word.contains("z") ||
+                            !word.allUniqueLetters()
+                          );
+    }
+
+    // For testing
+    public void removeNonAIPRSTWords() {
+        wordleLib.removeIf(word ->
+//                            word.contains("a") ||
+                            word.contains("b") ||
+                            word.contains("c") ||
+                            word.contains("d") ||
+                            word.contains("e") ||
+                            word.contains("f") ||
+                            word.contains("g") ||
+                            word.contains("h") ||
+//                            word.contains("i") ||
+                            word.contains("j") ||
+                            word.contains("k") ||
+                            word.contains("l") ||
+                            word.contains("m") ||
+                            word.contains("n") ||
+                            word.contains("o") ||
+//                            word.contains("p") ||
+                            word.contains("q") ||
+//                            word.contains("r") ||
+//                            word.contains("s") ||
+//                            word.contains("t") ||
+                            word.contains("u") ||
+                            word.contains("v") ||
+                            word.contains("w") ||
+                            word.contains("x") ||
+                            word.contains("y") ||
+                            word.contains("z")
+                          );
+    }
+
+    public void removeWordsWith(Word word) {
+        String[] letters = word.arr();
+
+        // NOT ACTUALLY a, b, c, d, e (obviously but this is a reminder)
+        wordleLib.removeIf(w ->
+                            w.contains(letters[0]) ||
+                            w.contains(letters[1]) ||
+                            w.contains(letters[2]) ||
+                            w.contains(letters[3]) ||
+                            w.contains(letters[4])
+                          );
+    }
+
+    public ArrayList<ArrayList<Word>> getSomeCombos(int fromIndex, int toIndex) {
+        ArrayList<ArrayList<Word>> combos = new ArrayList<>();
+
+        double start = System.currentTimeMillis();
+        for (int i = fromIndex; i < toIndex; i++) {
+            System.out.println("i = " + i + "/" + (wordleLib.size()-3));
+            if (i==fromIndex+1) {
+                double loopTime = (System.currentTimeMillis() - start) / 1000;
+                double totalTime = loopTime * (wordleLib.size() - 3 + 1);
+                System.out.println("Estimated loop time : " + loopTime);
+                System.out.println("Estimated total time: " + totalTime);
+                return combos;
+            }
+            Word w1 = wordleLib.get(i);
+            for (int j = i+1; j < wordleLib.size() - 2; j++) {
+                Word w2 = wordleLib.get(j);
+                if (!wordsSetHasRepeatLetters(new Word[]{w1, w2})) {
+                    for (int k = j + 1; k < wordleLib.size() - 1; k++) {
+                        Word w3 = wordleLib.get(k);
+                        if (!wordsSetHasRepeatLetters(new Word[]{w1, w2, w3})) {
+//                        int count = 0;
+                            for (int l = k + 1; l < wordleLib.size(); l++) {
+                                Word w4 = wordleLib.get(l);
+                                if (!wordsSetHasRepeatLetters(new Word[]{w1, w2, w3, w4})) {
+                                    ArrayList<Word> combo = new ArrayList<>();
+                                    combo.add(w1);
+                                    combo.add(w2);
+                                    combo.add(w3);
+                                    combo.add(w4);
+//                                    if (!comboHasRepeatLetters(combo))
+                                    combos.add(combo);
+//                                    System.out.println("added combo: " + combo);
+                                }
+//                                count++;
+//                                if (count > 20) {
+//                                    return combos;
+//                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+        return combos;
+    }
+
+    private void getNext(ArrayList<Word> combo, int i) {
+        Word next;
+        next = wordleLib.get(i);
+        combo.add(next);
+        removeWordsWith(next);
+    }
+
+    private boolean comboHasRepeatLetters(ArrayList<Word> combo) {
+        ArrayList<String> letters = new ArrayList<>();
+
+        for (Word word : combo)
+            for (String letter : word.arr()) {
+                    if (letters.contains(letter))
+                        return true;
+                    else
+                        letters.add(letter);
+            }
+
+        return false;
+    }
+// The above and below methods are exactly the same; only diff is arg type
+    private boolean wordsSetHasRepeatLetters(Word[] words) {
+        ArrayList<String> letters = new ArrayList<>();
+
+        for (Word word : words)
+            for (String letter : word.arr()) {
+                if (letters.contains(letter))
+                    return true;
+                else
+                    letters.add(letter);
+            }
+
+        return false;
+    }
+
+    @Override
+    public void run() {
+//        int fromIndex = 0;
+//        int toIndex = wordleLib.size() - 3;
+        // These indices get the whole list of combos
+        ArrayList<ArrayList<Word>> combos = getSomeCombos(fromIndex, toIndex);
+
+        for (ArrayList<Word> combo : combos)
+            combosStr.append(comboStr(combo));
+
+//        (new DataHandler()).recordCombos(combosStr.toString());
+
+//        combos.removeIf(this::comboHasRepeatLetters);
+//        for (ArrayList<Word> combo : combos)
+//            printCombo(combo);
+    }
+
+    public void printCombo(ArrayList<Word> combo) {
+        for (Word word : combo)
+            System.out.print(word + " ");
+        System.out.println();
+    }
+
+    public String comboStr(ArrayList<Word> combo) {
+        StringBuilder str = new StringBuilder();
+        for (Word word : combo)
+            str.append(word).append(" ");
+        str.append("\n");
+        return str.toString();
+    }
+
+    public String combosStr() {
+        return combosStr.toString();
+    }
+
+    public int getReducedLibSize() {
+        return wordleLib.size();
+    }
+}

@@ -1,0 +1,604 @@
+solution: heart
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, !, !, ?]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, !, _, ?]
+
+solution: finer
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, ?, ?]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, ?, ?, _, _]
+
+solution: idyll
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, ?, _, _, _]
+
+solution: tooth
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, !, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, _]
+
+solution: dingy
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, _]
+
+solution: downy
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, !, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, _]
+
+solution: fauna
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, ?, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [!, _, ?, _, _]
+
+solution: fight
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [!, _, _, _, _]
+
+solution: crazy
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, !, ?, _]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, !, _, ?, _]
+
+solution: penne
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, _, !]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, _, _, _, _]
+
+solution: apple
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, ?, _, !]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, _, _, _, _]
+
+solution: grape
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, !, ?, !]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, !, _, _, _]
+
+solution: piggy
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, _]
+
+solution: scoop
+Guess: soare
+     [s, o, a, r, e]
+1/6: [!, ?, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, _]
+
+solution: udder
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, ?, ?]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, ?, _, _, _]
+
+solution: clean
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, ?, _, ?]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, _, _, ?, _]
+
+solution: stoop
+Guess: soare
+     [s, o, a, r, e]
+1/6: [!, ?, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, _]
+
+solution: larva
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, ?, ?, _]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, ?, _, _, _]
+
+solution: chose
+Guess: soare
+     [s, o, a, r, e]
+1/6: [?, ?, _, _, !]
+
+solution: stump
+Guess: soare
+     [s, o, a, r, e]
+1/6: [!, _, _, _, _]
+Guess: podgy
+     [p, o, d, g, y]
+2/6: [?, _, _, _, _]
+
+solution: grime
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, ?, !]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, !, !, _, _]
+
+solution: smith
+Guess: soare
+     [s, o, a, r, e]
+1/6: [!, _, _, _, _]
+Guess: podgy
+     [p, o, d, g, y]
+2/6: [_, _, _, _, _]
+
+solution: odder
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, ?, _, ?, ?]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, ?, _, _, _]
+
+solution: terse
+Guess: soare
+     [s, o, a, r, e]
+1/6: [?, _, _, ?, !]
+
+solution: glare
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, !, !, !]
+
+solution: demon
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, ?, _, _, ?]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, ?, ?]
+
+solution: snuff
+Guess: soare
+     [s, o, a, r, e]
+1/6: [!, _, _, _, _]
+Guess: podgy
+     [p, o, d, g, y]
+2/6: [_, _, _, _, _]
+
+solution: pulpy
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, ?, _, _, _]
+
+solution: tatty
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, ?, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, ?, _, _]
+
+solution: mount
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, !, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, ?, _]
+
+solution: jetty
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, _, ?]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, ?]
+
+solution: grade
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, !, ?, !]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, !, _, _, _]
+
+solution: privy
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, ?, _]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, !, !, _, _]
+
+solution: poise
+Guess: soare
+     [s, o, a, r, e]
+1/6: [?, !, _, _, !]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, !]
+
+solution: truth
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, ?, _]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, !, _, _, _]
+
+solution: polka
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, !, ?, _, _]
+Guess: shunt
+     [s, h, u, n, t]
+2/6: [_, _, _, _, _]
+
+solution: oddly
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, ?, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, ?, _, _, _]
+
+solution: fixer
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, ?, ?]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, ?, ?, _, _]
+
+solution: essay
+Guess: soare
+     [s, o, a, r, e]
+1/6: [?, _, ?, _, ?]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, ?, _, ?]
+
+solution: beast
+Guess: soare
+     [s, o, a, r, e]
+1/6: [?, _, !, _, ?]
+Guess: shunt
+     [s, h, u, n, t]
+2/6: [?, _, _, _, !]
+
+solution: bawdy
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, ?, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, ?, _, _]
+
+solution: froze
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, ?, _, ?, !]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, !, _, _, _]
+
+solution: built
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, ?, _, _, _]
+
+solution: freer
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, ?, ?]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, !, _, _, _]
+
+solution: quell
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, _, ?]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, ?, _, _, ?]
+
+solution: safer
+Guess: soare
+     [s, o, a, r, e]
+1/6: [!, _, ?, ?, ?]
+
+solution: madly
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, ?, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, ?, ?, ?, _]
+
+solution: gaunt
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, ?, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, ?, _, _]
+
+solution: groan
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, ?, ?, ?, _]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, !, _, _, _]
+
+solution: gypsy
+Guess: soare
+     [s, o, a, r, e]
+1/6: [?, _, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, _]
+
+solution: proxy
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, ?, _, ?, _]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, !, _, _, _]
+
+solution: noise
+Guess: soare
+     [s, o, a, r, e]
+1/6: [?, !, _, _, !]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, !]
+
+solution: dingy
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, _]
+
+solution: chief
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, _, ?]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [?, _, _, _, ?]
+
+solution: voter
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, !, _, ?, ?]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, ?]
+
+solution: forth
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, !, _, ?, _]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, ?, _, _, _]
+
+solution: moral
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, !, ?, ?, _]
+Guess: podgy
+     [p, o, d, g, y]
+2/6: [_, !, _, _, _]
+
+solution: crown
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, ?, _, ?, _]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, !, _, ?, _]
+
+solution: weary
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, !, !, ?]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, !, _, ?]
+
+solution: would
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, !, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, ?, _, _, _]
+
+solution: cacao
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, ?, ?, _, _]
+Guess: podgy
+     [p, o, d, g, y]
+2/6: [_, ?, _, _, _]
+
+solution: weigh
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, _, ?]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, ?]
+
+solution: index
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, _, ?]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, ?]
+
+solution: dingy
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, _]
+
+solution: ridge
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, ?, !]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, ?, ?, _, _]
+
+solution: slash
+Guess: soare
+     [s, o, a, r, e]
+1/6: [!, _, !, _, _]
+Guess: podgy
+     [p, o, d, g, y]
+2/6: [_, _, _, _, _]
+
+solution: gourd
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, !, _, !, _]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, ?, _, _, _]
+
+solution: mince
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, _, !]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, _, ?, !, _]
+
+solution: onion
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, ?, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, _]
+
+solution: prove
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, ?, _, ?, !]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, !, _, _, _]
+
+solution: wooer
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, !, _, ?, ?]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, ?]
+
+solution: skirt
+Guess: soare
+     [s, o, a, r, e]
+1/6: [!, _, _, !, _]
+Guess: podgy
+     [p, o, d, g, y]
+2/6: [_, _, _, _, _]
+
+solution: cough
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, !, _, _, _]
+Guess: flame
+     [f, l, a, m, e]
+2/6: [_, _, _, _, _]
+
+solution: piper
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, _, _, ?, ?]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, ?, ?, _, _]
+
+solution: polka
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, !, ?, _, _]
+Guess: shunt
+     [s, h, u, n, t]
+2/6: [_, _, _, _, _]
+
+solution: world
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, !, _, ?, _]
+Guess: brick
+     [b, r, i, c, k]
+2/6: [_, ?, _, _, _]
+
+solution: vodka
+Guess: soare
+     [s, o, a, r, e]
+1/6: [_, !, ?, _, _]
+Guess: shunt
+     [s, h, u, n, t]
+2/6: [_, _, _, _, _]
+

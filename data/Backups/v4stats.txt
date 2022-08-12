@@ -1,0 +1,155 @@
+07/18/2022 @23:36 - 1000 trials run in 4:18
+win percentage : 92.2%
+avg num guesses: 4.536876355748373
+avg guess time : 133.0408797513746 ms
+avg game time  : 556.51 ms
+
+07/19/2022 @06:19 - 3000 trials run in 10:25
+win percentage : 91.73333333333333%
+avg num guesses: 4.531613372093023
+avg guess time : 107.32739956699542 ms
+avg game time  : 446.16 ms
+
+07/22/2022 @22:00 - 1000 trials run in 3:16
+win percentage : 94.7%
+avg num guesses: 4.453009503695882
+avg guess time : 169.3779938344795 ms
+avg game time  : 714.267 ms
+avg list size before each guess:
+12974 > 452 > 38 > 4 > 1 > 1
+
+07/22/2022 @22:08 - 8 trials run in 0:7
+win percentage : 100.0%
+avg num guesses: 4.875
+avg guess time : 344.87179487179486 ms
+avg game time  : 1681.25 ms
+avg list size before each guess:
+12974 > 463 > 51 > 6 > 3 > 1
+
+07/22/2022 @22:15 - 96 trials run in 0:26
+win percentage : 94.79166666666667%
+avg num guesses: 4.56043956043956
+avg guess time : 277.5831325301205 ms
+avg game time  : 1199.96875 ms
+avg list size before each guess:
+12974 > 439 > 31 > 4 > 1 > 1
+
+07/22/2022 @22:25 - 1000 trials run in 3:24
+win percentage : 94.1%
+avg num guesses: 4.656748140276302
+avg guess time : 227.36125057051575 ms
+avg game time  : 996.297 ms
+avg list size before each guess:
+12974 > 448 > 38 > 6 > 2 > 1
+
+07/22/2022 @22:27 - 96 trials run in 0:23
+win percentage : 96.875%
+avg num guesses: 4.548387096774194
+avg guess time : 239.13475177304966 ms
+avg game time  : 1053.6875 ms
+avg list size before each guess:
+12974 > 385 > 27 > 4 > 1 > 1
+
+07/22/2022 @22:33 - 1000 trials run in 3:33
+win percentage : 83.4%
+avg num guesses: 4.567146282973621
+avg guess time : 285.0325544762405 ms
+avg game time  : 1085.689 ms
+avg list size before each guess:
+12974 > 531 > 65 > 15 > 5 > 2
+
+07/23/2022 @18:38 - 96 trials run in 0:34
+win percentage : 95.83333333333333%
+avg num guesses: 4.543478260869565
+avg guess time : 227.71052631578948 ms
+avg game time  : 991.4895833333334 ms
+avg list size before each guess:
+12974 > 391 > 33 > 4 > 1 > 1
+
+07/23/2022 @19:33 - 1000 trials run in 4:48
+win percentage : 94.8%
+avg num guesses: 4.584388185654008
+avg guess time : 232.8630924988495 ms
+avg game time  : 1012.023 ms
+avg list size before each guess:
+12974 > 430 > 35 > 5 > 1 > 1
+
+07/23/2022 @20:59 - 1000 trials run in 4:36
+win percentage : 99.2%
+avg num guesses: 4.21875
+avg guess time : 227.43345280764635 ms
+avg game time  : 951.809 ms
+avg list size before each guess:
+12974 > 307 > 16 > 2 > 1 > 1
+
+07/23/2022 @21:24 - 3000 trials run in 10:54
+win percentage : 99.8%
+avg num guesses: 4.257849031396126
+avg guess time : 116.97929086915595 ms
+avg game time  : 497.084 ms
+avg list size before each guess:
+12974 > 292 > 17 > 2 > 1 > 1
+
+07/23/2022 @21:38 - 3000 trials run in 10:52
+win percentage : 99.6%
+avg num guesses: 4.257697456492637
+avg guess time : 118.83980506209716 ms
+avg game time  : 503.96 ms
+avg list size before each guess:
+12974 > 337 > 17 > 2 > 1 > 1
+
+07/23/2022 @22:50 - 12974 trials run in 45:11 (first guess 'tares')
+win percentage : 99.45275165716048%
+avg num guesses: 4.266139657444005
+avg guess time : 107.19567271009701 ms
+avg game time  : 454.80907969785727 ms
+avg list size before each guess:
+12974 > 304 > 18 > 2 > 1 > 1
+
+07/24/2022 @09:56 - 12974 trials run in 45:56 (first guess 'salet')
+win percentage : 99.49899799599199%
+avg num guesses: 4.270973739251684
+avg guess time : 125.3780425871513 ms
+avg game time  : 532.8035301371975 ms
+avg list size before each guess:
+12974 > 335 > 18 > 2 > 1 > 1
+
+07/25/2022 @22:39 - 2309 trials run in 9:12
+win percentage : 99.95669120831529%
+avg num guesses: 3.648613518197574
+avg guess time : 53.09773186082413 ms
+avg game time  : 193.64919878735384 ms
+avg list size before each guess:
+2309 > 71 > 4 > 1 > 1 > 1
+
+07/25/2022 @23:07 - 2309 trials run in 9:52 - (first guess 'tares')
+win percentage : 99.95669120831529%
+avg num guesses: 3.648613518197574
+avg guess time : 67.74753592209952 ms
+avg game time  : 247.07752273711563 ms
+avg list size before each guess:
+2309 > 71 > 4 > 1 > 1 > 1
+
+07/26/2022 @01:01 - 2309 trials run in 9:56 - (first guess 'salet')
+win percentage : 99.95669120831529%
+avg num guesses: 3.5944540727902945
+avg guess time : 60.0594262295082 ms
+avg game time  : 215.78735383282807 ms
+avg list size before each guess:
+2309 > 70 > 3 > 1 > 1 > 1
+
+07/26/2022 @01:13 - 2309 trials run in 9:25 - (first guess 'kaies')
+win percentage : 100.0%
+avg num guesses: 3.815504547423127
+avg guess time : 71.6871736662883 ms
+avg game time  : 273.52273711563447 ms
+avg list size before each guess:
+2309 > 106 > 5 > 1 > 1 > 1
+
+07/27/2022 @04:24 - 12974 trials run in 81:20 (starting guess 'crane')
+win percentage : 99.19839679358718%
+avg num guesses: 4.309246309246309
+avg guess time : 163.93205914172376 ms
+avg game time  : 700.7609064282411 ms
+avg list size before each guess:
+12974 > 621 > 22 > 3 > 1 > 1

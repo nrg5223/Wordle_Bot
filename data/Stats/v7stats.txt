@@ -1,0 +1,48 @@
+07/25/2022 @15:15 - 12974 trials run in 377:16 (subSetSize=500->1000, first guess 'tares')
+win percentage : 99.77647602898104%
+avg num guesses: 4.192429509463113
+avg guess time : 1995.6220449227028 ms
+avg game time  : 8347.80360721443 ms
+avg list size before each guess: 
+12974 > 303 > 18 > 2 > 1 > 1
+
+07/25/2022 @02:35 - 12974 trials run in 217:23 (subSetSize=250->1000, first guess 'tares')
+win percentage : 99.78418375211962%
+avg num guesses: 4.193650548431948
+avg guess time : 1050.9655744045974 ms
+avg game time  : 4397.870510251272 ms
+avg list size before each guess:
+12974 > 303 > 18 > 2 > 1 > 1
+
+07/26/2022 @00:34 - 2309 trials run in 19:29 (subSetSize=250->1000, first guess 'tares')
+win percentage : 100.0%
+avg num guesses: 3.62104807275877
+avg guess time : 109.02415978949887 ms
+avg game time  : 394.78172368990903 ms
+avg list size before each guess: 
+2309 > 71 > 4 > 1 > 1 > 1
+
+08/09/2022 @20:21 - 2309 trials run in 00:03:57 (first guess 'soare')
+win percentage : 100.0%
+avg num guesses: 3.591598094413166
+avg guess time : 186.67285662607017 ms
+avg game time  : 670.4538761368558 ms
+avg list size before each guess: 
+2309 > 62 > 4 > 1 > 1 > 1
+
+08/10/2022 @23:35 - 2309 trials run in 00:19:32 (first guess 'soare', subSetSize = 20 then 1000)
+win percentage : 100.0%
+avg num guesses: 3.555218709398008
+avg guess time : 1030.1570227798757 ms
+avg game time  : 3662.433521004764 ms
+avg list size before each guess: 
+2309 > 62 > 3 > 1 > 1 > 1
+
+08/11/2022 @14:50 - 2309 trials run in 05:48:12 (first guess 'soare', subSetSize = 500 then 1000)
+win percentage : 100.0%
+avg num guesses: 3.527067994802945
+avg guess time : 18714.373035363456 ms
+avg game time  : 66006.8661758337 ms
+avg list size before each guess: 
+2309 > 62 > 3 > 1 > 1 > 1
+

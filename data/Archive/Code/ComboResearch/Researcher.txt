@@ -1,0 +1,79 @@
+package com.nrg5223.Testers.Research;
+
+import com.nrg5223.Utilities.DataHandlers.DataWriter;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Researcher {
+    StringBuilder combosStr = new StringBuilder();
+    int numThreads;
+    int[] indices;
+    ArrayList<SubResearcher> sResearchers = new ArrayList<>();
+
+    public Researcher() {
+        int libSize = (new SubResearcher(0 ,0)).getReducedLibSize();
+
+        numThreads =  Runtime.getRuntime().availableProcessors();
+        indices = new int[numThreads];
+        int startIndex = 0;
+        int endIndex = libSize - 3;
+        int totalNumLoops = endIndex - startIndex + 1;
+        int setSize = totalNumLoops / numThreads;
+
+        indices[0] = 0;
+        for (int i = 1; i < numThreads - 1; i++) {
+            indices[i] = i * setSize;
+        }
+        indices[numThreads - 1] = endIndex;
+    }
+
+    public void runTests() {
+        List<Thread> threads = new ArrayList<>();
+
+        createAndStartAll(threads);
+        joinAll(threads);
+        combineAllData();
+
+        recordData();
+    }
+
+    // MULTITHREADING HELPERS *************************************************
+
+    void createAndStartAll(List<Thread> threads) {
+        for (int i = 0; i < numThreads - 1; i++) {
+            SubResearcher sr = new SubResearcher(indices[i], indices[i+1]);
+            sResearchers.add(sr);
+
+            Thread thread = new Thread(sr);
+            threads.add(thread);
+            thread.start();
+        }
+    }
+
+    private void joinAll(List<Thread> threads) {
+        for (Thread thread : threads) {
+            try {
+                thread.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    void combineAllData() {
+        for (SubResearcher sr : sResearchers) {
+            combosStr.append(sr.combosStr());
+        }
+    }
+
+    void recordData() {
+        try {
+            (new DataWriter()).recordCombos(combosStr.toString());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+}

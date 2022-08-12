@@ -1,0 +1,16 @@
+package com.nrg5223.Testers;
+
+import com.nrg5223.WordleGames.Solvers.DataTypes.StringList;
+import com.nrg5223.WordleGames.Solvers.DataTypes.Word;
+
+public class TimedSpecificWordStatsGettingSet extends SpecificWordStatsGettingSet{
+
+    public TimedSpecificWordStatsGettingSet(int solverVersion, Word solution, int setSize, StringList wordleLib, StringList solutionLib) {
+        super(solverVersion, solution, setSize, wordleLib, solutionLib);
+    }
+
+    @Override
+    public void run() {
+        timedRun();
+    }
+}

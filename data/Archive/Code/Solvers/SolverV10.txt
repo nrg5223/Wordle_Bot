@@ -1,0 +1,59 @@
+package com.nrg5223.WordleGames.Solvers;
+
+import com.nrg5223.WordleGames.Solvers.DataTypes.Word;
+
+import java.util.ArrayList;
+
+// This one cannot be used for the real wordle because it needs to know the
+// solution for the algorithm to work.  Kind of silly but it'll be fun to play
+// around with.
+public class SolverV10 extends Solver {
+
+    /** The last guess submitted and the corresponding clue */
+    Word guess;
+    String[] clue;
+
+    @Override
+    public int getVersion() {
+        return 10;
+    }
+
+    @Override
+    public Word generateGuess() {
+        if (possibleSolutions.size() == startingCount) {
+            return startingGuess;
+        }
+        return getBestGuess();
+    }
+
+    @Override
+    public void analyzeClue(Word guess, String[] clue) {
+        updateSolutionList(guess, clue);
+        this.clue = clue;
+        this.guess = guess;
+    }
+
+    // I realized this doesn't work because the clue array used is for the
+    // previous guess.  I need the clue array for each word for this to work.
+    private Word getBestGuess() {
+        Word bestGuess = possibleSolutions.get(0);
+        int bestSize = possibleSolutions.size();
+
+        for (Word potentialGuess : possibleSolutions) {
+            ArrayList<Word> copy = copyOfPossibleSolutions();
+            copy.removeIf(word -> !isPossibleSolution(word, guess, clue));
+            int potentialSize = copy.size();
+
+            if (potentialSize < bestSize) {
+                bestSize = potentialSize;
+                bestGuess = potentialGuess;
+            }
+        }
+
+        return bestGuess;
+    }
+
+    private ArrayList<Word> copyOfPossibleSolutions() {
+        return (ArrayList<Word>) possibleSolutions.clone();
+    }
+}

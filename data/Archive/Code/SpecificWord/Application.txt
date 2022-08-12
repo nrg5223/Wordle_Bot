@@ -1,0 +1,316 @@
+package com.nrg5223;
+
+import com.nrg5223.WordleGames.Solvers.DataTypes.StringList;
+import com.nrg5223.Testers.*;
+import com.nrg5223.Utilities.DataHandlers.DataHandler;
+import com.nrg5223.Utilities.DataHandlers.DataReader;
+import com.nrg5223.Utilities.DataHandlers.DataWriter;
+import com.nrg5223.Utilities.Print;
+import com.nrg5223.WordleGames.AutomatedGame;
+import com.nrg5223.WordleGames.DebuggingGame;
+import com.nrg5223.WordleGames.Solvers.Solver;
+import com.nrg5223.WordleGames.Solvers.Solvers;
+import com.nrg5223.WordleGames.Solvers.DataTypes.Word;
+import com.nrg5223.WordleGames.WordleGame;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+/**
+ * The class for running Wordle Games and tests.  For all run configurations,
+ * updates are printed to the terminal for the user.
+ *
+ * There are 9 run configurations:
+ *      libraries   - executes web scraping and writes the Wordle library and
+ *                    the solution library to text files.
+ *                  - additional arguments: none
+ *
+ *      manual      - plays a PTUI version of Wordle in the terminal.  The user
+ *                    types their guesses, and clues are printed to the
+ *                    terminal.
+ *                  - additional arguments: none
+ *
+ *      auto        - plays an automated PTUI version of Wordle in the terminal.
+ *                    The Solver class generates guesses and they are printed in
+ *                    the terminal.
+ *                  - additional arguments:
+ *                        args[1] - the solver version
+ *                        args[2] - the first guess word
+ *
+ *      quick_test  - runs a number of automated Wordle games and calculates
+ *                    stats like win percentage, avg num of guesses, and avg
+ *                    guess time.  The stats are written to a data file.  Guess
+ *                    sequences that lead to errors are written to a text file.
+ *                  - additional arguments:
+ *                        args[1] - the solver version
+ *                        args[2] - the first guess word
+ *                        args[3] - the number of tests to run
+ *
+ *      test_word   - runs a number of automated Wordle games all with the same
+ *                    solution, which is an argument in the tester's
+ *                    construction.  Stats are calculated and written to a text
+ *                    file.
+ *                  - additional arguments:
+ *                        args[1] - the solver version
+ *                        args[2] - the number of tests to run
+ *                        args[3] - the first guess word
+ *                        args[4] - the solution word to use for all tests
+ *
+ *      test        - runs a Wordle game for every word in the solution library
+ *                    for a given solver version.  Stats are calculated and
+ *                    written to a text file.
+ *                  - additional arguments:
+ *                        args[1] - the solver version
+ *                        args[2] - the first guess word
+ *
+ *      test_all    - runs a Wordle game for every word in the solution library
+ *                    for every solver version.  Stats are calculated and
+ *                    written to a text file.
+ *                  - additional arguments:
+ *  *                        args[1] - the first guess word
+ *
+ *      find_errors - runs a number of automated Wordle games that catch and
+ *                    store game details that throw exceptions.  The game
+ *                    details are recorded in a text file.  Nothing is printed
+ *                    to the terminal.
+ *                  - this run configuration is only meant for developer use
+ *                  - additional arguments:
+ *                        args[1] - the solver version
+ *                        args[2] - the number of tests to run
+ *
+ *      debug       - runs an automated Wordle game that follows a configuration
+ *                    (solution and guess sequence) that has previously lead to an
+ *                    error.  The configuration is gotten from a text file. The
+ *                    guesses are printed to the terminal.
+ *                  - this run configuration is only meant for developer use
+ *                  - additional arguments:
+ *                        args[1] - the solver version
+ */
+public class Application {
+    public static void main(String[] args) throws IOException {
+
+        double start = System.currentTimeMillis();
+
+        StringList strWordleLib = DataReader.getStrWordleLib();
+        StringList strSolutionLib = DataReader.getStrSolutionLib();
+
+        // Initialize flags for argument validation
+        boolean firstGuessInitialized = false;
+        boolean solverVersionInitialized = false;
+        boolean numberOfTestsInitialized = false;
+        boolean solutionInitialized = false;
+
+        String runType;
+        // Default values cause IllegalArgumentExceptions
+        int solverVersion = 0;                  // default
+        int numberOfTests = 0;                  // default
+        Word solution = new Word("");       // default
+
+        try {
+            // Initialize variables and validate arguments
+            try {
+                runType = args[0];
+
+                if (!runType.equals("test_all")) {
+                    if (args.length >= 2) {
+                        solverVersion = Integer.parseInt(args[1]);
+                        DataWriter.assignFileNames(solverVersion);
+
+                        if (!Solvers.isValidVersion(solverVersion))
+                            throw new IllegalArgumentException();
+                        solverVersionInitialized = true;
+                    }
+                    if (args.length >= 3) {
+                        Solver.firstGuess = new Word(args[2]);
+
+                        if (!strWordleLib.contains(args[2]))
+                            throw new IllegalArgumentException();
+                        firstGuessInitialized = true;
+                    }
+                    if (args.length >= 4) {
+                        numberOfTests = Integer.parseInt(args[3]);
+
+                        numberOfTestsInitialized = true;
+                    }
+                    if (args.length >= 5) {
+                        solution = new Word(args[4]);
+
+                        if (!strSolutionLib.contains(solution.str()))
+                            throw new IllegalArgumentException();
+                        solutionInitialized = true;
+                    }
+                }
+                else {
+                    if (args.length >= 2) {
+                        Solver.firstGuess = new Word(args[1]);
+
+                        if (!strWordleLib.contains(args[1]))
+                            throw new IllegalArgumentException();
+                        firstGuessInitialized = true;
+                    }
+                }
+
+                if (!runConfigWasValid(runType,
+                        firstGuessInitialized,
+                        solverVersionInitialized,
+                        numberOfTestsInitialized,
+                        solutionInitialized)) {
+                    throw new IllegalArgumentException();
+                }
+            }
+            catch (Exception e) {
+                throw new IllegalArgumentException();
+            }
+
+            // Variables have been initialized and validated; execute the program
+            try {
+                switch (runType) {
+                    case "manual" -> {
+                        Print.manualGameMsg();
+                        (new WordleGame(strWordleLib, strSolutionLib)).play();
+                        System.out.println();
+                    }
+
+                    case "auto" -> {
+                        Print.autoGameMsg(solverVersion);
+                        (new AutomatedGame(solverVersion, strWordleLib, strSolutionLib)).play();
+                        System.out.println();
+                    }
+
+                    case "quick_test" -> {
+                        (new StatsGetter(solverVersion,
+                                numberOfTests,
+                                strWordleLib,
+                                strSolutionLib)).runTests();
+                        Print.done();
+                    }
+
+                    case "test_word" -> {
+                        (new SpecificWordStatsGetter(solverVersion,
+                                numberOfTests,
+                                solution,
+                                strWordleLib,
+                                strSolutionLib)).runTests();
+                        Print.done();
+                    }
+
+                    case "test" -> {
+                        (new AllWordsStatsGetter(solverVersion, strWordleLib, strSolutionLib)).runTests();
+                        Print.done();
+                    }
+
+                    case "test_all" -> {
+                        for (int i = 1; i <= Solvers.numberOfVersions; i++) {
+                            DataWriter.assignFileNames(i);
+                            (new AllWordsStatsGetter(i, strWordleLib, strSolutionLib)).runTests();
+                            Print.done();
+                        }
+                    }
+
+                    case "find_errors" -> {
+                        Print.findErrorsMsg(numberOfTests, solverVersion);
+                        (new ErrorFinder(solverVersion,
+                                numberOfTests,
+                                strWordleLib,
+                                strSolutionLib)).runTests();
+                        Print.done();
+                    }
+
+                    case "debug" -> (new DebuggingGame(solverVersion,
+                            DataReader.parseFaultyGame(),
+                            strWordleLib,
+                            strSolutionLib)).play();
+
+                    case "library" -> {
+                        DataWriter.writeWordleLibToFile();
+                        DataWriter.writeSolutionLibToFile();
+                        Print.done();
+                    }
+                }
+            } catch (Exception e) {
+                if (e instanceof IllegalArgumentException)
+                    throw new IllegalArgumentException();
+
+                String fileName = DataHandler.errorsFileName();
+
+                // NullPointerException is thrown when the content of a file is
+                // empty
+                if ((runType.equals("find_errors") || runType.equals("debug")) &&
+                        e instanceof NullPointerException)
+                    System.out.println("No errors found in: " + fileName);
+
+                // FileNotFoundException is thrown when accessing a file doesn't
+                // exist
+                else if (runType.equals("debug") && e instanceof FileNotFoundException)
+                    System.out.println(fileName + " not found.");
+
+                // All exceptions aside from the above two are not expected and
+                // need to be analyzed
+                else
+                    e.printStackTrace();
+            }
+            double time = (System.currentTimeMillis() - start) / 1000;
+            Print.executionTime(time);
+        }
+        catch (IllegalArgumentException e) {
+            Print.validRunConfigs();
+        }
+    }
+
+    /**
+     * Do the inputted arguments make a valid run configuration?
+     *
+     * Before this method is called, the arguments given are checked for
+     * validity.  This method determines if all required arguments were given.
+     *
+     * @param runType one of 9 valid run types that determine what the program does
+     * @param firstGuessInitialized a flag representing whether the firstGuess
+     *                              variable was initialized
+     * @param solverVersionInitialized a flag representing whether the
+     *                                 solverVersion variable was initialized
+     * @param numberOfTestsInitialized a flag representing whether the
+     *                                 numberOfTests variable was initialized
+     * @param solutionInitialized a flag representing whether the solution
+     *                            varible was initialized
+     * @return true if all required arguments for the run type were given;
+     *         false otherwise.
+     */
+    private static boolean runConfigWasValid(String runType,
+                                             boolean firstGuessInitialized,
+                                             boolean solverVersionInitialized,
+                                             boolean numberOfTestsInitialized,
+                                             boolean solutionInitialized) {
+        switch (runType) {
+            case "manual", "library" -> {
+                return true;
+            }
+
+            case "auto", "test", "debug" -> {
+                return solverVersionInitialized &&
+                       firstGuessInitialized;
+            }
+
+            case "quick_test", "find_errors" -> {
+                return solverVersionInitialized &&
+                       firstGuessInitialized &&
+                       numberOfTestsInitialized;
+            }
+
+            case "test_word" -> {
+                return solverVersionInitialized &&
+                       firstGuessInitialized &&
+                       numberOfTestsInitialized &&
+                       solutionInitialized;
+            }
+
+            case "test_all" -> {
+                return firstGuessInitialized;
+            }
+
+            default -> {
+                return false;
+            }
+        }
+    }
+
+}

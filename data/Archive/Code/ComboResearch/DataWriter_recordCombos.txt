@@ -1,0 +1,12 @@
+    /**
+     * Record all 4-word combos containing the 20 most commons alphabet letters
+     * with no repeat letters.  This is used as a part of SolverV6, which is
+     * unfinished as of 8/2/2022.
+     *
+     * @param combosStr a string containing a 4-word, space-separated combo per
+     *                  line
+     * @throws IOException can occur during file reading/writing
+     */
+    public void recordCombos(String combosStr) throws IOException {
+        record(combosStr, "data/combos.txt");
+    }

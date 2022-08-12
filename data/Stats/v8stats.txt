@@ -1,0 +1,312 @@
+08/01/2022 @21:02 - 80 trials run in 0:56
+win percentage : 92.5%
+avg num guesses: 4.743243243243243
+avg guess time : 921.8518518518518 ms
+avg game time  : 4044.625 ms
+avg list size before each guess: 
+12974 > 620 > 21 > 5 > 2 > 1
+
+08/03/2022 @18:49 - 100 trials run in 00:00:25
+win percentage : 99.0%
+avg num guesses: 3.9292929292929295
+avg guess time : 374.90745501285346 ms
+avg game time  : 1458.39 ms
+avg list size before each guess: 
+2309 > 99 > 5 > 1 > 1 > 1
+
+08/03/2022 @18:54 - 100 trials run in 00:00:11
+win percentage : 100.0%
+avg num guesses: 4.03
+avg guess time : 139.86104218362283 ms
+avg game time  : 563.64 ms
+avg list size before each guess: 
+2309 > 111 > 7 > 1 > 1 > 1
+
+08/03/2022 @18:59 - 1000 trials run in 00:01:20
+win percentage : 99.9%
+avg num guesses: 3.972972972972973
+avg guess time : 120.54925673973293 ms
+avg game time  : 478.46 ms
+avg list size before each guess: 
+2309 > 106 > 8 > 1 > 1 > 1
+
+08/03/2022 @19:00 - 100 trials run in 00:00:20
+win percentage : 94.0%
+avg num guesses: 4.5
+avg guess time : 254.16548463356975 ms
+avg game time  : 1075.12 ms
+avg list size before each guess: 
+12974 > 435 > 29 > 4 > 1 > 1
+
+08/03/2022 @19:05 - 1000 trials run in 00:02:41
+win percentage : 93.0%
+avg num guesses: 4.549462365591398
+avg guess time : 239.6934530843772 ms
+avg game time  : 1014.143 ms
+avg list size before each guess: 
+12974 > 407 > 36 > 5 > 2 > 1
+
+08/03/2022 @19:16 - 2309 trials run in 00:02:59
+win percentage : 99.74014724989173%
+avg num guesses: 3.9973947025618757
+avg guess time : 117.7277862263741 ms
+avg game time  : 469.3815504547423 ms
+avg list size before each guess: 
+2309 > 106 > 8 > 1 > 1 > 1
+
+08/03/2022 @19:28 - 2309 trials run in 00:02:48
+win percentage : 99.6102208748376%
+avg num guesses: 3.9043478260869566
+avg guess time : 111.76057906458797 ms
+avg game time  : 434.6513642269381 ms
+avg list size before each guess: 
+2309 > 100 > 7 > 1 > 1 > 1
+
+08/03/2022 @19:34 - 2309 trials run in 00:03:52
+win percentage : 100.0%
+avg num guesses: 3.725422260718926
+avg guess time : 158.4024645431295 ms
+avg game time  : 590.116067561715 ms
+avg list size before each guess: 
+2309 > 70 > 4 > 1 > 1 > 1
+
+08/03/2022 @20:04 - 100 trials run in 00:00:12
+win percentage : 100.0%
+avg num guesses: 3.7
+avg guess time : 172.80810810810812 ms
+avg game time  : 639.39 ms
+avg list size before each guess: 
+2309 > 64 > 4 > 1 > 1 > 1
+
+08/03/2022 @21:28 - 100 trials run with solution "crank" in 00:00:13
+win percentage : 100.0%
+avg num guesses: 5.0
+avg guess time : 161.446 ms
+avg game time  : 807.23 ms
+avg list size before each guess: 
+2309 > 101 > 16 > 3 > 1 > 1
+
+08/03/2022 @21:29 - 100 trials run in 00:00:07
+win percentage : 100.0%
+avg num guesses: 3.68
+avg guess time : 107.25271739130434 ms
+avg game time  : 394.69 ms
+avg list size before each guess: 
+2309 > 70 > 4 > 1 > 1 > 1
+
+08/04/2022 @08:20 - 100 trials run with solution "crank" in 00:00:13
+win percentage : 100.0%
+avg num guesses: 5.0
+avg guess time : 146.776 ms
+avg game time  : 733.88 ms
+avg list size before each guess: 
+2309 > 101 > 16 > 3 > 1 > 1
+
+08/04/2022 @08:22 - 100 trials run with solution "crank" in 00:00:13
+win percentage : 100.0%
+avg num guesses: 5.0
+avg guess time : 154.46 ms
+avg game time  : 772.3 ms
+avg list size before each guess: 
+2309 > 101 > 16 > 3 > 1 > 1
+
+08/04/2022 @08:22 - 100 trials run with solution "crank" in 00:00:13
+win percentage : 100.0%
+avg num guesses: 5.0
+avg guess time : 146.732 ms
+avg game time  : 733.66 ms
+avg list size before each guess: 
+2309 > 101 > 16 > 3 > 1 > 1
+
+08/04/2022 @08:29 - 100 trials run with solution "crank" in 00:00:12
+win percentage : 100.0%
+avg num guesses: 5.0
+avg guess time : 148.48 ms
+avg game time  : 742.4 ms
+avg list size before each guess: 
+2309 > 101 > 16 > 3 > 1 > 1
+
+08/04/2022 @08:30 - 100 trials run in 00:00:09
+win percentage : 100.0%
+avg num guesses: 3.62
+avg guess time : 134.4696132596685 ms
+avg game time  : 486.78 ms
+avg list size before each guess: 
+2309 > 78 > 4 > 1 > 1 > 1
+
+08/04/2022 @09:26 - 100 trials run in 00:00:10
+win percentage : 100.0%
+avg num guesses: 3.68
+avg guess time : 131.8451086956522 ms
+avg game time  : 485.19 ms
+avg list size before each guess: 
+2309 > 71 > 4 > 1 > 1 > 1
+
+08/04/2022 @09:28 - 100 trials run in 00:00:10
+win percentage : 100.0%
+avg num guesses: 3.67
+avg guess time : 132.29155313351498 ms
+avg game time  : 485.51 ms
+avg list size before each guess: 
+2309 > 64 > 3 > 1 > 1 > 1
+
+08/04/2022 @09:31 - 100 trials run in 00:00:10
+win percentage : 100.0%
+avg num guesses: 3.77
+avg guess time : 125.83023872679045 ms
+avg game time  : 474.38 ms
+avg list size before each guess: 
+2309 > 66 > 4 > 1 > 1 > 1
+
+08/04/2022 @09:32 - 100 trials run with solution "crank" in 00:00:11
+win percentage : 100.0%
+avg num guesses: 5.0
+avg guess time : 138.742 ms
+avg game time  : 693.71 ms
+avg list size before each guess: 
+2309 > 101 > 16 > 3 > 1 > 1
+
+08/04/2022 @13:42 - 100 trials run in 00:00:10
+win percentage : 100.0%
+avg num guesses: 3.74
+avg guess time : 138.4572192513369 ms
+avg game time  : 517.83 ms
+avg list size before each guess: 
+2309 > 65 > 4 > 1 > 1 > 1
+
+08/04/2022 @13:42 - 100 trials run with solution "crank" in 00:00:12
+win percentage : 100.0%
+avg num guesses: 5.0
+avg guess time : 145.238 ms
+avg game time  : 726.19 ms
+avg list size before each guess: 
+2309 > 101 > 16 > 3 > 1 > 1
+
+08/04/2022 @14:01 - 100 trials run in 00:00:04
+win percentage : 100.0%
+avg num guesses: 2.64
+avg guess time : 54.85606060606061 ms
+avg game time  : 144.82 ms
+avg list size before each guess: 
+100 > 3 > 1 > 1 > 1 > 1
+
+08/04/2022 @14:09 - 50 trials run in 00:00:01
+win percentage : 100.0%
+avg num guesses: 2.44
+avg guess time : 46.942622950819676 ms
+avg game time  : 114.54 ms
+avg list size before each guess: 
+50 > 2 > 1 > 1 > 1 > 1
+
+08/04/2022 @22:24 - 1 trials run in 00:00:00
+win percentage : 100.0%
+avg num guesses: 3.0
+avg guess time : 72.66666666666667 ms
+avg game time  : 218.0 ms
+avg list size before each guess: 
+2309 > 8 > 1 > 1 > 1 > 1
+
+08/04/2022 @22:25 - 1 trials run with solution "crank" in 00:00:00
+win percentage : 100.0%
+avg num guesses: 5.0
+avg guess time : 104.6 ms
+avg game time  : 523.0 ms
+avg list size before each guess: 
+2309 > 101 > 16 > 3 > 1 > 1
+
+08/05/2022 @20:31 - 150 trials run in 00:00:19
+win percentage : 100.0%
+avg num guesses: 3.8133333333333335
+avg guess time : 180.58566433566435 ms
+avg game time  : 688.6333333333333 ms
+avg list size before each guess: 
+2309 > 76 > 4 > 1 > 1 > 1
+
+08/05/2022 @20:34 - 100 trials run in 00:00:03
+win percentage : 100.0%
+avg num guesses: 2.64
+avg guess time : 54.503787878787875 ms
+avg game time  : 143.89 ms
+avg list size before each guess: 
+100 > 3 > 1 > 1 > 1 > 1
+
+08/05/2022 @21:11 - 150 trials run in 00:00:21
+win percentage : 100.0%
+avg num guesses: 3.64
+avg guess time : 205.07692307692307 ms
+avg game time  : 746.48 ms
+avg list size before each guess: 
+2309 > 66 > 4 > 1 > 1 > 1
+
+08/05/2022 @21:26 - 2309 trials run in 00:02:37 (first guess 'crane')
+win percentage : 100.0%
+avg num guesses: 3.725422260718926
+avg guess time : 104.23994419902348 ms
+avg game time  : 388.33780857514074 ms
+avg list size before each guess: 
+2309 > 70 > 4 > 1 > 1 > 1
+
+08/05/2022 @21:37 - 2309 trials run in 00:02:33 (first guess 'kaies')
+win percentage : 100.0%
+avg num guesses: 3.725422260718926
+avg guess time : 103.8913043478261 ms
+avg game time  : 387.03897791251626 ms
+avg list size before each guess: 
+2309 > 70 > 4 > 1 > 1 > 1
+
+08/05/2022 @23:43 - 100 trials run in 00:00:04 (first guess 'kaies')
+win percentage : 100.0%
+avg num guesses: 2.64
+avg guess time : 56.32954545454545 ms
+avg game time  : 148.71 ms
+avg list size before each guess: 
+100 > 3 > 1 > 1 > 1 > 1
+
+08/08/2022 @08:39 - 2309 trials run in 00:02:46 (first guess 'crane')
+win percentage : 99.95669120831529%
+avg num guesses: 3.615684575389948
+avg guess time : 114.11420011983223 ms
+avg game time  : 412.42226071892594 ms
+avg list size before each guess: 
+2309 > 78 > 4 > 1 > 1 > 1
+
+08/08/2022 @08:43 - 2309 trials run in 00:02:29 (first guess 'soare')
+win percentage : 100.0%
+avg num guesses: 3.620614984841923
+avg guess time : 101.36997607655502 ms
+avg game time  : 367.02165439584235 ms
+avg list size before each guess: 
+2309 > 62 > 4 > 1 > 1 > 1
+
+08/08/2022 @08:49 - 2309 trials run in 00:02:23 (first guess 'salet')
+win percentage : 100.0%
+avg num guesses: 3.5911650064963188
+avg guess time : 99.16365171249397 ms
+avg game time  : 356.1130359462971 ms
+avg list size before each guess: 
+2309 > 70 > 3 > 1 > 1 > 1
+
+08/08/2022 @09:23 - 12974 trials run in 00:30:36 (first guess 'soare')
+win percentage : 98.9825805457068%
+avg num guesses: 4.314982090017131
+avg guess time : 192.3330806850378 ms
+avg game time  : 821.4700940342223 ms
+avg list size before each guess: 
+12974 > 306 > 22 > 3 > 1 > 1
+
+08/08/2022 @19:03 - 2309 trials run in 00:02:54 (first guess 'saree')
+win percentage : 99.6102208748376%
+avg num guesses: 3.9043478260869566
+avg guess time : 116.55935412026726 ms
+avg game time  : 453.314421827631 ms
+avg list size before each guess: 
+2309 > 100 > 7 > 1 > 1 > 1
+
+08/09/2022 @16:36 - 100 trials run in 00:00:05 (first guess 'soare')
+win percentage : 100.0%
+avg num guesses: 3.65
+avg guess time : 92.64383561643835 ms
+avg game time  : 338.15 ms
+avg list size before each guess: 
+2309 > 59 > 4 > 1 > 1 > 1
+

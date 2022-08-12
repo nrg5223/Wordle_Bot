@@ -1,0 +1,24 @@
+07/21/2022 @20:05 - 12974 trials run in 13:7
+win percentage : 83.69045783875443%
+avg num guesses: 4.474765150119727
+avg guess time : 77.52730154156461 ms
+avg game time  : 290.3359796516109 ms
+avg list size before each guess: 
+12974 > 419 > 63 > 14 > 5 > 2
+
+08/10/2022 @14:07 - 2309 trials run in 00:01:07 (random first guess)
+win percentage : 97.74794283239498%
+avg num guesses: 4.065573770491803
+avg guess time : 30.803945074106366 ms
+avg game time  : 122.41533131225638 ms
+avg list size before each guess: 
+2309 > 222 > 19 > 3 > 1 > 1
+
+08/10/2022 @22:06 - 12974 trials run in 00:16:48 (first guess 'soare')
+win percentage : 84.37644519808849%
+avg num guesses: 4.622179592582443
+avg guess time : 126.97193620427281 ms
+avg game time  : 495.1944658547865 ms
+avg list size before each guess: 
+12974 > 1404 > 127 > 18 > 4 > 2
+

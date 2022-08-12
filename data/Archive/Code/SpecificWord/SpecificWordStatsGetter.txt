@@ -1,0 +1,51 @@
+package com.nrg5223.Testers;
+
+import com.nrg5223.WordleGames.Solvers.DataTypes.StringList;
+import com.nrg5223.Utilities.DataHandlers.SpecificWordDataWriter;
+import com.nrg5223.WordleGames.Solvers.DataTypes.Word;
+
+import java.io.IOException;
+
+/**
+ * An object for running multithreaded wordle tests.  Each thread runs a set of
+ * wordle games in a TestSet object.  Then their data is combined and recorded
+ * to data/v_stats.txt where _ is the solver version.  Multithreading is used to
+ * speed up testing.
+ *
+ * This functions exactly the same as WordleStatsTester, except all games have
+ * the same solution word.
+ */
+public class SpecificWordStatsGetter extends StatsGetter {
+
+    Word solution;
+
+    public SpecificWordStatsGetter(int solverVersion, int totalTestCount, Word solution, StringList wordleLib, StringList solutionLib) {
+        super(solverVersion, totalTestCount, wordleLib, solutionLib);
+        this.solution = solution;
+    }
+
+    @Override
+    StatsGettingSet createSet(int setNumber) {
+        numSetsMade++;
+        if (setNumber == numThreads)
+            return new TimedSpecificWordStatsGettingSet(solverVersion, solution, setSize + remainder(), wordleLib, solutionLib);
+        return new SpecificWordStatsGettingSet(solverVersion, solution, setSize + remainder(), wordleLib, solutionLib);
+    }
+
+    @Override
+    void recordData() {
+        stats[stats.length - 1] = time;
+
+        try {
+            SpecificWordDataWriter writer = new SpecificWordDataWriter(solution);
+            writer.recordStats(stats);
+            writer.recordMissedWords(missedWordsStr.toString());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public Word getSolution() {
+        return solution;
+    }
+}

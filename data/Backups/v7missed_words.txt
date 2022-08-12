@@ -1,0 +1,62 @@
+fazes
+woofy
+wolly
+jills
+zines
+hoxed
+jocks
+wives
+namer
+fixes
+maker
+zaxes
+vills
+faggy
+kills
+koker
+pipes
+vangs
+wines
+waxer
+vowed
+faxes
+pizes
+loxes
+gills
+zills
+gives
+wonks
+wowed
+doves
+pests
+doges
+pines
+
+above: during quick tests
+below: during testing of full wordle library
+
+cangs
+coxes
+doxed
+fangs
+fills
+fives
+jakes
+jives
+konks
+lills
+sangs
+vails
+vells
+welts
+wizes
+zeals
+zests
+zexes
+zooks
+
+Note: the current v7 (g1-2=v4, g3=v7w250, g4-6=v7w1000) misses 28 words.
+Only 18 of them were listed during tests. The other 10 are in the list at the
+top.  But that list has more additional words because it used a less precise
+version of v7.
+

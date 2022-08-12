@@ -1,0 +1,24 @@
+08/09/2022 @20:49 - 2309 trials run in 00:00:47 (first guess 'soare')
+win percentage : 98.1810307492421%
+avg num guesses: 3.838994265549184
+avg guess time : 28.717683557394 ms
+avg game time  : 108.24166305760069 ms
+avg list size before each guess: 
+2309 > 63 > 7 > 2 > 1 > 1
+
+08/10/2022 @20:59 - 2309 trials run in 00:00:49 (first guess 'saine')
+win percentage : 98.5708098744045%
+avg num guesses: 3.8299648506151143
+avg guess time : 30.386371458070435 ms
+avg game time  : 114.71546123863145 ms
+avg list size before each guess: 
+2309 > 73 > 8 > 2 > 1 > 1
+
+08/10/2022 @22:49 - 12974 trials run in 00:14:10 (first guess 'cares')
+win percentage : 85.34761831355017%
+avg num guesses: 4.46726271109907
+avg guess time : 107.69722637771399 ms
+avg game time  : 410.617465700632 ms
+avg list size before each guess: 
+12974 > 411 > 52 > 12 > 4 > 2
+
