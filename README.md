@@ -128,7 +128,9 @@ Personal project - started 6/27/2022.
 > 
 > ### V2
 > A solver version that uses letter frequency to choose the best guess. It
-> assumes guesses with all unique letters are best.
+> chooses the guess with the most common letters among what is left in the 
+> list of possible solutions.  It assumes guesses with all unique letters
+> are best.
 > 
 >  - Status: methods tested and verified.  Performs well.
 > 
@@ -142,7 +144,9 @@ Personal project - started 6/27/2022.
 > 
 > ### V3
 > A solver version that uses letter-index frequency to choose the best guess.
-> It assumes guesses with all unique letters are best.
+> It chooses the guess with the most common letters in the most common positions
+> among what is left in the list of possible solutions.  It assumes guesses with
+> all unique letters are best.
 > 
 >  - Status: methods tested and verified.  Performs well.
 > 
