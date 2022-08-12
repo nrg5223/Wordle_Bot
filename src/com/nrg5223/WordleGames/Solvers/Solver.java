@@ -147,9 +147,13 @@ public abstract class Solver {
         return guess;
     }
 
-    // GETTERS ****************************************************************
+    // GETTERS/SETTERS ********************************************************
 
     public int getPossibleSolutionsSize() {
         return possibleSolutions.size();
+    }
+
+    public void incrementGuessCount() {
+        guessCount++;
     }
 }

@@ -52,8 +52,10 @@ public class DebuggingGame extends AutomatedGame {
      */
     @Override
     public Word getNextGuess() {
-        if (index < guesses.length)
+        if (index < guesses.length) {
+            solver.incrementGuessCount();
             return guesses[index++];
+        }
         // This should cause the IllegalArgumentException
         return solver.generateGuess();
     }
