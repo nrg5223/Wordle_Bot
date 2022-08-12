@@ -241,4 +241,4 @@ Personal project - started 6/27/2022.
 ### Known Bugs
 > - There is at least one unidentified bug in SolverV6.
 
-README last updated on: 8/10/2022
+README last updated on: 8/12/2022
