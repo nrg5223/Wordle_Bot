@@ -85,7 +85,8 @@ Personal project - started 6/27/2022.
 >
 >      quick_test  - runs a number of automated Wordle games and calculates
 >                    stats like win percentage, avg num of guesses, and avg
->                    guess time.  The stats are written to a data file.
+>                    guess time.  The stats are written to a text file in data/Stats/
+>                    called vXstats.txt where X is the solver version.
 >                  - additional arguments:
 >                        args[1] - the solver version
 >                        args[2] - the first guess word
@@ -93,14 +94,16 @@ Personal project - started 6/27/2022.
 >
 >      test        - runs a Wordle game for every word in the solution library
 >                    for a given solver version.  Stats are calculated and
->                    written to a text file.
+>                    written to a text file in data/Stats/ called vXstats.txt 
+>                    where X is the solver version.
 >                  - additional arguments:
 >                        args[1] - the solver version
 >                        args[2] - the first guess word
 >
 >      test_all    - runs a Wordle game for every word in the solution library
 >                    for every solver version.  Stats are calculated and
->                    written to a text file.
+>                    written to a text file in data/Stats/ called vXstats.txt 
+>                    where X is the solver version.
 >                  - additional arguments:
 >                        args[1] - the first guess word
 
