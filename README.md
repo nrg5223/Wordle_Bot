@@ -153,8 +153,7 @@ Personal project - started 6/27/2022.
 > letter-index in each guess, and sums the 5 letter-index reductions.  It
 > assumes guesses with all unique letters are best.
 > 
-> This is the best solver.  See ***Wordle Bot Solver V4*** as a pdf or png in
-> *data/Documents/* for how it works.
+> This is the best solver.  See how it works here: https://github.com/nrg5223/Wordle_Bot/blob/3452c56630faa655ba46d3a79446f0fa86d50a7a/Documents/Wordle%20Bot%20SolverV4.pdf
 > 
 >  - Status: methods tested and verified.  Performs well.
 > 
@@ -237,8 +236,7 @@ Personal project - started 6/27/2022.
 > #### Plans
 > - none currently
 > #### Documents
-> - See ***UML_Diagram.png*** in *data/Documents* for system design.
->    - https://github.com/nrg5223/Wordle_Bot/blob/3452c56630faa655ba46d3a79446f0fa86d50a7a/Documents/UML%20Class%20Diagram.pdf
+> - See UML Class Diagram for system design here: https://github.com/nrg5223/Wordle_Bot/blob/3452c56630faa655ba46d3a79446f0fa86d50a7a/Documents/UML%20Class%20Diagram.pdf
 
 ### Known Bugs
 > - There is at least one unidentified bug in SolverV6.
