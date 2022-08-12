@@ -31,7 +31,7 @@ Personal project - started 6/27/2022.
 >      library from online.
 > 
 >> #### In Progress
-> - Nothing currently.
+> - nothing currently
 > 
 >> #### Planned
 > - Program that plays the daily Wordle using the solver.
@@ -217,7 +217,7 @@ Personal project - started 6/27/2022.
 > 
 > ### V8 
 > A solver version that chooses guesses by calculating reduction of each
-> potential guess.  It stores a set of words that could be potentially reduced
+> potential guess.  It stores a set of words that could be potentially removed
 > by each letter in the guess.  Then it takes the union of the sets to remove
 > repeat words.  This gives words more accurate scores.  The size of the union
 > represents the average number of words removed by a given guess.
