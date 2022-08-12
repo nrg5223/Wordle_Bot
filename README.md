@@ -129,8 +129,9 @@ Personal project - started 6/27/2022.
 > ### V2
 > A solver version that uses letter frequency to choose the best guess. It
 > chooses the guess with the most common letters among what is left in the 
-> list of possible solutions.  It assumes guesses with all unique letters
-> are best.
+> list of possible solutions.  It chooses from the list of possible solutions,
+> meaning it plays hard mode.  It assumes guesses with all unique letters are
+> best.
 > 
 >  - Status: methods tested and verified.  Performs well.
 > 
@@ -145,8 +146,9 @@ Personal project - started 6/27/2022.
 > ### V3
 > A solver version that uses letter-index frequency to choose the best guess.
 > It chooses the guess with the most common letters in the most common positions
-> among what is left in the list of possible solutions.  It assumes guesses with
-> all unique letters are best.
+> among what is left in the list of possible solutions.  It chooses from the list
+> of possible solutions, meaning it plays hard mode.  It assumes guesses with all
+> unique letters are best.
 > 
 >  - Status: methods tested and verified.  Performs well.
 > 
@@ -159,10 +161,12 @@ Personal project - started 6/27/2022.
 >     - Avg guesses: 4.34
 > 
 > ### V4
-> A solver version that chooses guesses by calculating average reduction of
-> each potential guess.  To do so, it calculates the average reduction of each
-> letter-index in each guess, and sums the 5 letter-index reductions.  It
-> assumes guesses with all unique letters are best.
+> A solver version that chooses guesses by calculating the average reduction of
+> each potential guess.  Reduction is the number of words a guess would eliminate
+> from the list of possible solutions after being guessed.  To calculate reduction,
+> this solver calculates the average reduction of each letter-index in each guess,
+> and sums the 5 letter-index reductions.  It assumes guesses with all unique
+> letters are best.
 > 
 > This is the best solver.  See how it works here: https://github.com/nrg5223/Wordle_Bot/blob/3452c56630faa655ba46d3a79446f0fa86d50a7a/Documents/Wordle%20Bot%20SolverV4.pdf
 > 
@@ -178,9 +182,8 @@ Personal project - started 6/27/2022.
 > 
 > ### V5
 > A solver version that uses the same method as SolverV3, except it chooses
-> guesses from the whole Wordle library.  SolverV3 chooses guesses from the
-> solution library, meaning it plays hard mode.  This solver assumes guesses
-> with all unique letters are best.
+> guesses from the whole Wordle library, instead of just the list of possible
+> solutions.  This solver assumes guesses with all unique letters are best.
 >
 >  - Status: methods tested and verified.  Performs well.
 > 
@@ -211,10 +214,12 @@ Personal project - started 6/27/2022.
 > ### V7
 > A solver version that chooses guesses by calculating average reduction of
 > each potential guess.  To do so, it creates a copy of the current game for
-> each word, guesses each word, and gets the reduction of the solution list for
-> each one.  This takes a long time, so it uses SolverV4's method for the first
-> 2 guesses.  Then it uses its method to re-rank the best X guesses from
-> SolverV4's method.
+> each word, guesses each word in the Wordle library, and gets the reduction 
+> of the solution list from each copy of the game.  This takes a long time,
+> so it uses SolverV4's method for the first 2 guesses.  Then is uses its
+> method to re-rank the best X guesses from SolverV4's method.  It essentially
+> "cleans up" the top guesses from SolverV4 by using a more accurate but
+> 
 > 
 >  - Status:  methods tested and verified.  Performs well, but is slow.
 >
@@ -228,10 +233,12 @@ Personal project - started 6/27/2022.
 > 
 > ### V8 
 > A solver version that chooses guesses by calculating reduction of each
-> potential guess.  It stores a set of words that could be potentially removed
-> by each letter in the guess.  Then it takes the union of the sets to remove
-> repeat words.  This gives words more accurate scores.  The size of the union
-> represents the average number of words removed by a given guess.
+> potential guess.  It determines which words would be eliminated as possible
+> solutions due to each letter in potential guesses.  This gives each word 5 sets
+> of words that it can eliminate, one set per letter.  Then the union of these
+> sets is taken to remove repeat words.  The size of the union represents the
+> average number of words that a given guess would remove.  Taking the union gives
+> words more accurate reduction values.
 > 
 >  - Status: needs more testing and optimization.  It is very slow. 
 > 
