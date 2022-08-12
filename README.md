@@ -238,6 +238,7 @@ Personal project - started 6/27/2022.
 > - none currently
 > #### Documents
 > - See ***UML_Diagram.png*** in *data/Documents* for system design.
+>    - https://github.com/nrg5223/Wordle_Bot/blob/3452c56630faa655ba46d3a79446f0fa86d50a7a/Documents/UML%20Class%20Diagram.pdf
 
 ### Known Bugs
 > - There is at least one unidentified bug in SolverV6.
