@@ -14,7 +14,7 @@ avg game time  : 122.41533131225638 ms
 avg list size before each guess: 
 2309 > 222 > 19 > 3 > 1 > 1
 
-08/10/2022 @22:06 - 12974 trials run in 00:16:48 (first guess 'soare')
+08/10/2022 @22:06 - 12974 trials run in 00:16:48 (random first guess)
 win percentage : 84.37644519808849%
 avg num guesses: 4.622179592582443
 avg guess time : 126.97193620427281 ms
