@@ -8,7 +8,7 @@ Personal project - started 6/27/2022.
 >   Create a program that plays Wordle as optimally as possible.
 
 ### Features
->> #### Done
+> #### Done
 > - Playable Wordle PTUI
 >    - Play an implementation of the online game, Wordle.
 > - Automated Wordle PTUI
@@ -30,10 +30,10 @@ Personal project - started 6/27/2022.
 >    - Use web scraping to get the official Wordle guess library and solution
 >      library from online.
 > 
->> #### In Progress
+> #### In Progress
 > - nothing currently
 > 
->> #### Planned
+> #### Planned
 > - Program that plays the daily Wordle using the solver.
 >    - Daily texts to my phone or discord messages to show me results.
 >    - Use a raspberry pi (most likely).
