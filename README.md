@@ -10,7 +10,7 @@ Personal project - started 6/27/2022.
 ### Features
 > #### Done
 > - Playable Wordle PTUI
->    - Play an implementation of the online game, Wordle.
+>    - Play an implementation of the online game, Wordle, in the terminal.
 > - Automated Wordle PTUI
 >    - Watch a solver play the Wordle PTUI.
 > - Wordle Tester
