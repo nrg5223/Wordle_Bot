@@ -218,7 +218,8 @@ Personal project - started 6/27/2022.
 > of the solution list from each copy of the game.  This takes a long time,
 > so it uses SolverV4's method for the first 2 guesses.  Then is uses its
 > method to re-rank the best X guesses from SolverV4's method.  It essentially
-> "cleans up" the top guesses from SolverV4 by using a more accurate but
+> "cleans up" the top guesses from SolverV4 by using a more accurate but slower
+> method.
 > 
 > 
 >  - Status:  methods tested and verified.  Performs well, but is slow.
