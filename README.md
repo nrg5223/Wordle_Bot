@@ -177,7 +177,7 @@ Personal project - started 6/27/2022.
 >     - Solve rate: 100.00%
 >     - Avg guesses: 3.59
 >  - With Wordle lib as solution lib (size 12974)
->     - Solve rate: 99.50
+>     - Solve rate: 99.50%
 >     - Avg guesses: 4.27
 > 
 > ### V5
