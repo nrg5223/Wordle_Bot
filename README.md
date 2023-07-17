@@ -33,7 +33,7 @@ Personal project - started 6/27/2022.
 > #### In Progress
 > - none currently
 > 
-> #### Planned
+> #### Expansion Ideas
 > - Program that plays the daily Wordle using the solver.
 >    - Daily texts to my phone or discord messages to show me results.
 >    - Use a raspberry pi (most likely).
