@@ -31,7 +31,7 @@ public class StatsGetter extends WordleTester {
     // CREATING SETS **********************************************************
 
     /**
-     * This method is meant to be overridden by AllWordsStatsGetter where the
+     * This method is meant to be overridden by AllStatsGetter where the
      * set created is a specified subset of the Wordle library.
      *
      * @return a TestSet object to be used for running a test
